@@ -5,11 +5,11 @@ File.open("smashpoint.txt").each do |line|
   code = code[code.length-1].chomp
   begin
     filename = "#{code}.brstm"
-    puts filename
+    raise "NaN" unless code.to_i>0
     open(filename, 'wb') do |file|
       file << open(URI.encode("http://smashcustommusic.com/brstm/" + code)).read
     end
   rescue
-    puts "Not found."
+    puts "Not found - must be a number or link that ends with one."
   end
 end
