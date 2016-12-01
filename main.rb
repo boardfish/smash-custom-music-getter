@@ -7,7 +7,11 @@ File.open("smashpoint.txt").each do |line|
     filename = "#{code}.brstm"
     raise "NaN" unless code.to_i>0
     open(filename, 'wb') do |file|
-      file << open(URI.encode("http://smashcustommusic.com/brstm/" + code)).read
+      open(URI.encode("http://smashcustommusic.com/brstm/" + code)) do |uri|
+        fileinfo =  uri.metas["content-disposition"][0]
+        puts fileinfo[/(?<=filename=")[^\"]+/]
+        file.write(uri.read)
+      end
     end
   rescue
     puts "Not found - must be a number or link that ends with one."
