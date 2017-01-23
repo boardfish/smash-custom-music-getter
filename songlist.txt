@@ -1,4 +1,4 @@
-<option value=" | Download AsBrawlStage | Main Menu
+BrawlStage | Main Menu
 snd_bgm_CRS01_Menu | CRS01 - Menu
 snd_bgm_W30_SBDX_Menu | W30 - Menu (Melee)
 snd_bgm_W33_SBDX_Menu2 | W33 - Menu 2 (Melee)
@@ -37,7 +37,7 @@ snd_bgm_CRS28_MasterFortress02 | CRS28 - Master Fortress: Second Wave
 BrawlStage | Mushroom Kingdom U
 snd_bgm_A24_SMB_Chijyou_Chika | A24 - Ground Theme / Underground Theme
 snd_bgm_A32_SMB_Medley | A32 - Super Mario Bros. Medley
-snd_bgm_A33_SMB2_Medley | A33 - Super Mario Bros.: The Lost Levels Medley 
+snd_bgm_A33_SMB2_Medley | A33 - Super Mario Bros.: The Lost Levels Medley
 snd_bgm_A25_SMB3_Medley | A25 - Super Mario Bros. 3 Medley
 snd_bgm_A34_NEW2_TouBoss | A34 - Fortress Boss (Super Mario World)
 snd_bgm_A26_NEW2_Athletic_Chijyou | A26 - Athletic Theme / Ground Theme (New Super Mario Bros. 2)
@@ -176,7 +176,7 @@ snd_bgm_I12_FZR_SFC_MuteCity | I12 - Mute City (Original)
 snd_bgm_I14_FZR_RedCanyon | I14 - Red Canyon (Original)
 snd_bgm_I04_FZX_CarSelect | I04 - Car Select
 snd_bgm_I05_FZX_DreamChaser | I05 - Dream Chaser
-snd_bgm_I06_FZX_DevilsCallInYourHeart | I06 - Devil's Call in Your Heart 
+snd_bgm_I06_FZX_DevilsCallInYourHeart | I06 - Devil's Call in Your Heart
 snd_bgm_I07_FZX_ClimbUp_AndGetTheLastChance | I07 - Climb Up! And Get the Last Chance!
 snd_bgm_I08_GX_BrainCleaner | I08 - Brain Cleaner
 snd_bgm_I09_GX_ShotgunKiss | I09 - Shotgun Kiss
@@ -273,7 +273,7 @@ snd_bgm_K11_MTR_Magicant_EightMelodies | K11 - Magicant / Eight Melodies (Mother
 snd_bgm_K13_MTR2_OnettNoTheme | K13 - Onett Theme / Winters Theme
 snd_bgm_K12_MTR2_SmileAndTears | K12 - Smiles and Tears
 snd_bgm_W19_MTR_Pollyanna | W19 - Pollyanna (I Believe in You)
-snd_bgm_K01_MTR_Snowman | K01 - Snowman 
+snd_bgm_K01_MTR_Snowman | K01 - Snowman
 snd_bgm_K08_MTR3_AiNoTheme | K08 - Mother 3 Love Theme
 snd_bgm_K07_MTR_PorkyNoTheme | K07 - Porky's Theme
 snd_bgm_K09_MTR3_Revenge_BukkowashiSanka | K09 - Unfounded Revenge / Smashing Song of Praise
@@ -290,7 +290,7 @@ snd_bgm_J23_KSI_Ensei_Honoo | J23 - Conquest (Ablaze)
 snd_bgm_R35_HNE_BattleAreaA_Greecce | R35 - Glory of Heracles
 snd_bgm_R50_SBG_BosskyuuMonsterBattle | R50 - Attack (Soma Bringer)
 snd_bgm_J24_IF_HitoriOmou | J24 - Lost in Thoughts All Alone (Remix)
-snd_bgm_J26_IF_LostinThoughtsAllAlone | J26 - Lost in Thoughts All Alone (English) 
+snd_bgm_J26_IF_LostinThoughtsAllAlone | J26 - Lost in Thoughts All Alone (English)
 snd_bgm_J25_IF_HitoriOmou | J25 - Lost in Thoughts All Alone (JP)
 BrawlStage | Castle Siege
 snd_bgm_J02_FEM_Theme | J02 - Fire Emblem Theme
@@ -303,10 +303,10 @@ snd_bgm_J06_SNK_ShingekiJunbi | J06 - Preparing to Advance
 snd_bgm_J10_SEK_CrimeaArmySortie | J10 - Crimean Army Sortie
 snd_bgm_J09_SEK_AgainstTheDarkKnight | J09 - Against the Dark Knight
 snd_bgm_J11_SEK_PowerhungryFool | J11 - Power-Hungry Fool
-snd_bgm_J12_SEK_VictoryIsNear | J12 - Victory Is Near: Roy's Hope 
+snd_bgm_J12_SEK_VictoryIsNear | J12 - Victory Is Near: Roy's Hope
 snd_bgm_J13_ANM_IkeNoTheme | J13 - Ike's Theme
 snd_bgm_J24_IF_HitoriOmou | J24 - Lost in Thoughts All Alone (Remix)
-snd_bgm_J26_IF_LostinThoughtsAllAlone | J26 - Lost in Thoughts All Alone (English) 
+snd_bgm_J26_IF_LostinThoughtsAllAlone | J26 - Lost in Thoughts All Alone (English)
 snd_bgm_J25_IF_HitoriOmou | J25 - Lost in Thoughts All Alone (JP)
 BrawlStage | Flat Zone X
 snd_bgm_R04_GW_FlatZone2 | R04 - Flat Zone 2
@@ -365,7 +365,7 @@ snd_bgm_N05_OID_JunKissa_HatoNoSu | N05 - The Roost
 BrawlStage | KK Slider
 snd_bgm_N07_DNM_KK_Urban | N07 - K.K. Cruisin'
 snd_bgm_N08_DNM_KK_Western | N08 - K.K. Western
-snd_bgm_N09_DNM_KK_NewOrleans | N09 - K.K. Gumbo 
+snd_bgm_N09_DNM_KK_NewOrleans | N09 - K.K. Gumbo
 snd_bgm_N10_DNM_KK_RocknRoll | N10 - Rockin' K.K.
 snd_bgm_N11_DNM_KK_Eurobeat | N11 - DJ K.K.
 snd_bgm_N12_DNM_KK_PeruNoUta | N12 - K.K. Condor
@@ -672,7 +672,7 @@ snd_bgm_BY05_BY_RedandBlack | BY05 - Red &amp; Black
 snd_bgm_BY06_BY_AfterBurnerClimaxMix | BY06 - After Burner (Infinity Climax Mix)
 snd_bgm_BY07_BY_TomoYo | BY07 - Friendship
 snd_bgm_BY08_BY_LetsDanceBoys | BY08 - Let's Dance Boys
-snd_bgm_BY09_BY2_TheLegendofAesir | BY09 - The Legend of Aesir 
+snd_bgm_BY09_BY2_TheLegendofAesir | BY09 - The Legend of Aesir
 snd_bgm_BY11_BY2_TimeForTheClimax | BY11 - Time For the Climax!
 BrawlStage | DLC Victory Themes
 snd_bgm_Z80_F_Mewtwo | Z80 - Mewtwo Victory
@@ -687,4 +687,3 @@ BrawlStage | Items
 snd_bgm_SEQ_item_Goldenhammer | SEQ - Golden Hammer
 snd_bgm_SEQ_item_Hammer | SEQ - Hammer
 snd_bgm_SEQ_item_Superstar | SEQ - Super Star
-</option>
