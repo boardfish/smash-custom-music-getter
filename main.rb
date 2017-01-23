@@ -1,8 +1,9 @@
 #SmashCustomMusicGetter v2.0
 require 'open-uri'
 require 'csv'
-formats = { "brstm": ["Super Smash Bros. Brawl"], "bcstm": ["Tales of the Abyss", "Mario Kart 7", "Fire Emblem Awakening"], "nus3bank": ["Super Smash Bros. for 3DS", "Super Smash Bros. for Wii U"], "hps":["Super Smash Bros. Melee", "Kirby Air Ride"]}
 require 'fileutils'
+
+formats = { "brstm": ["Super Smash Bros. Brawl"], "bcstm": ["Tales of the Abyss", "Mario Kart 7", "Fire Emblem Awakening"], "nus3bank": ["Super Smash Bros. for 3DS", "Super Smash Bros. for Wii U"], "hps":["Super Smash Bros. Melee", "Kirby Air Ride"]}
 
 formats.each do |filetype, gamelist|
   print "#{filetype}:"
@@ -12,9 +13,20 @@ formats.each do |filetype, gamelist|
   end
   puts
 end
-
-game = gets.chomp
-fileformat = ''
+fileformat = ""
+loop do
+  isFiletype = false
+  fileformat = gets.chomp
+  formats.each do |filetype, gamelist|
+    if fileformat == filetype.to_s
+      puts "Matched!"
+      isFiletype = true
+    end
+  end
+  puts "All checked."
+  puts isFiletype
+  break if isFiletype
+end
 #choose a filetype/game.
 
 #CLEAN CSV GENERATOR
@@ -35,7 +47,6 @@ end
 #writing to csv
 
 #parsing csv
-fileformat = "nus3bank"
 CSV.foreach("songlist1.csv") do |row|
   filename = row[0].strip
   if filename.eql? "" or filename.eql? "BrawlStage"
