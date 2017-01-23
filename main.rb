@@ -1,43 +1,34 @@
+#SmashCustomMusicGetter v2.0
 require 'open-uri'
 formats = { "brstm": ["Super Smash Bros. Brawl"], "bcstm": ["Tales of the Abyss", "Mario Kart 7", "Fire Emblem Awakening"], "nus3bank": ["Super Smash Bros. for 3DS", "Super Smash Bros. for Wii U"], "hps":["Super Smash Bros. Melee", "Kirby Air Ride"]}
 
 formats.each do |filetype, gamelist|
-  print filetype, ":"
+  print "#{filetype}:"
   puts
   gamelist.each do |gameInFiletype|
-    puts gameInFiletype
+    print "#{gameInFiletype}, "
   end
+  puts
 end
 
 game = gets.chomp
 fileformat = ''
+#choose a filetype/game.
 
-formats.each do |filetype, gamelist|
-  gamelist.each do |gameInFiletype|
-    if game == gameInFiletype
-      print filetype, " found for ", game
-      puts
-      fileformat = filetype
+#writing to csv
+
+#parsing csv
+fileformat = "nus3bank"
+CSV.foreach("songlist.csv") do |row|
+  #error handling for empty filename
+  filename = "/#{row[1]}"
+  songID = row[2]
+  open("#{songID}.#{fileformat}", 'wb') do |file|
+    open(URI.encode("http://smashcustommusic.com/#{fileformat}/#{songID}#{filename}")) do |uri|
+      fileinfo =  uri.metas["content-disposition"][0]
+      songtitle = fileinfo[/(?<=filename=")[^\"]+/]
+      file.write(uri.read)
     end
   end
-end
-File.open("smashpoint.txt").each do |line|
-  input = URI.encode(line)
-  code = line.split("/")
-  code = code[code.length-1].chomp
-  begin
-    filename = "#{code}.#{fileformat}"
-    new_filename = ''
-    #raise "NaN" unless code.to_i>0
-    open(filename, 'wb') do |file|
-      open(URI.encode("http://smashcustommusic.com/#{fileformat}/" + code)) do |uri|
-        fileinfo =  uri.metas["content-disposition"][0]
-        new_filename = fileinfo[/(?<=filename=")[^\"]+/]
-        file.write(uri.read)
-      end
-    end
-    File.rename(filename, new_filename)
-  rescue
-    puts "Not found - must be a number or link that ends with one."
-  end
+  File.rename("#{songID}.#{fileformat}", "#{filename}.#{fileformat}")
 end
