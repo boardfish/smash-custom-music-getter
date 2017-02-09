@@ -2,7 +2,7 @@
 require 'open-uri'
 require 'csv'
 require 'fileutils'
-formats = { "brstm": ["Super Smash Bros. Brawl"], "bcstm": ["Tales of the Abyss", "Mario Kart 7", "Fire Emblem Awakening"], "nus3bank": ["Super Smash Bros. for 3DS", "Super Smash Bros. for Wii U"], "hps":["Super Smash Bros. Melee", "Kirby Air Ride"], "mp3": ["mp3 previews shown on smashcustommusic"]}
+$formats = { "brstm": ["Super Smash Bros. Brawl"], "bcstm": ["Tales of the Abyss", "Mario Kart 7", "Fire Emblem Awakening"], "nus3bank": ["Super Smash Bros. for 3DS", "Super Smash Bros. for Wii U"], "hps":["Super Smash Bros. Melee", "Kirby Air Ride"], "mp3": ["mp3 previews shown on smashcustommusic"]}
 
 def choose(formats)
   formats.each do |filetype, gamelist|
@@ -49,12 +49,13 @@ def generate_csv
   end
 end
 
-def download_song(songID, fileformat, filename)
+def download_song(songID, fileformat, filename, songnames)
   FileUtils::mkdir_p "output/#{fileformat}"
   open("output/#{fileformat}/#{filename}.#{fileformat}", 'wb') do |file|
     songtitle = ""
+    puts "http://smashcustommusic.com/#{fileformat}/#{songID}"
     begin
-      open(URI.encode("http://smashcustommusic.com/#{fileformat}/#{songID}")) do |uri|
+      open(URI.encode("http://smashcustommusic.com/brstm/#{songID}")) do |uri| #locked to brstm here, to prevent issues with getting MP3 metadata.
         fileinfo =  uri.metas["content-disposition"][0]
         songtitle = fileinfo[/(?<=filename=")[^\"]+/]
       end
@@ -80,6 +81,9 @@ def download_song(songID, fileformat, filename)
     else
       puts "replaced with #{songtitle}."
     end
+    if songnames
+      File.rename("output/#{fileformat}/#{filename}.#{fileformat}", "output/#{fileformat}/#{songtitle}.#{fileformat}")
+    end
   end
 end
 
@@ -98,7 +102,7 @@ def parse_csv
         next
       end
       print "#{row[1].chomp} "
-      download_song(songID, $fileformat, filename)
+      download_song(songID, $fileformat, filename, false)
     end
   rescue
     puts "An error occurred. Have you renamed songlist.csv to songlist1.csv?"
@@ -107,6 +111,38 @@ def parse_csv
   end
 end
 
-$fileformat = choose(formats)
-generate_csv #Need to include a better way to do this.
-parse_csv
+def parse_txt
+  File.open("songlist1.txt").each do |link|
+    input = URI.encode(link)
+    songID = link.split("/")
+    songID = songID[songID.length-1].chomp
+    download_song(songID, $fileformat, "", true)
+  end
+  puts "All done! Check the output folder."
+end
+
+def menu
+  puts "SmashCustomMusicGetter, by undying-fish"
+  print "Choose an option: "
+  input = gets.chomp
+  case input
+  when "generate"
+    generate_csv
+  when "download"
+    $fileformat = choose($formats)
+    print "Choose an option [gamefile/title]: "
+    input = gets.chomp
+    case input
+    when "gamefile"
+      parse_csv
+    when "title"
+      parse_txt
+    end
+  when exit
+    puts "Thank you for using this program!"
+    return
+  end
+  menu
+end
+
+menu
