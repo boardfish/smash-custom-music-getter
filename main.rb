@@ -50,9 +50,9 @@ def generate_csv
 end
 
 def download_song(songID, fileformat, filename)
+  puts "download_song(#{songID}, #{fileformat}, #{filename})" #debug
   FileUtils::mkdir_p "output/#{fileformat}"
   outputpath = "output/#{fileformat}/#{filename}.#{fileformat}"
-  puts outputpath
   File.open(outputpath, 'wb') do |file|
     songtitle = ""
     begin
@@ -85,6 +85,7 @@ def get_song_title(songID)
     open(URI.encode("http://smashcustommusic.com/brstm/#{songID}")) do |uri| #locked to brstm here, to prevent issues with getting MP3 metadata.
       fileinfo =  uri.metas["content-disposition"][0]
       songtitle = fileinfo[/(?<=filename=")[^\"]+/]
+      songtitle.slice! ".brstm"
       return songtitle
     end
   rescue
