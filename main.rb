@@ -158,4 +158,7 @@ def menu
   menu
 end
 
-menu
+$fileformat = "mp3"
+parse_csv(true)
+parse_csv(false)
+parse_txt
