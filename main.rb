@@ -24,7 +24,8 @@ def choose(formats)
         return fileformat
       end
     end
-    puts "All checked. Please try again"
+    puts
+    print "All checked. Please try again"
     print ": "
   end
   parse_csv
@@ -50,7 +51,6 @@ def generate_csv
 end
 
 def download_song(songID, fileformat, filename)
-  puts "download_song(#{songID}, #{fileformat}, #{filename})" #debug
   FileUtils::mkdir_p "output/#{fileformat}"
   outputpath = "output/#{fileformat}/#{filename}.#{fileformat}"
   File.open(outputpath, 'wb') do |file|
@@ -64,7 +64,6 @@ def download_song(songID, fileformat, filename)
           downloadURL+="/#{filename}"
         end
       end
-      puts downloadURL
       open(URI.encode(downloadURL)) do |uri|
         file.write(uri.read)
       end
@@ -100,7 +99,7 @@ def parse_csv(originaltitles)
       if songID.to_i == 0
         next
       end
-      print "#{row[1].chomp} "
+      print "#{row[1].chomp} - "
       filename = row[0].strip
       if filename.eql? "" or filename.eql? "BrawlStage"
         next
@@ -108,7 +107,10 @@ def parse_csv(originaltitles)
       if originaltitles
         filename = get_song_title(songID)
       end
+      puts filename
+      print("Downloading...")
       download_song(songID, $fileformat, filename)
+      puts("Done!")
     end
   rescue
     puts "An error occurred. Have you renamed songlist.csv to songlist1.csv?"
@@ -122,7 +124,11 @@ def parse_txt
     input = URI.encode(link)
     songID = link.split("/")
     songID = songID[songID.length-1].chomp
-    download_song(songID, $fileformat, get_song_title(songID))
+    filename=get_song_title(songID)
+    puts(filename)
+    print("Downloading...")
+    download_song(songID, $fileformat, filename)
+    puts("done!")
   end
   puts "All done! Check the output folder."
 end
@@ -151,14 +157,11 @@ def menu
         parse_txt
       end
     end
-  when exit
+  when "exit"
     puts "Thank you for using this program!"
     return
   end
   menu
 end
 
-$fileformat = "mp3"
-parse_csv(true)
-parse_csv(false)
-parse_txt
+menu
