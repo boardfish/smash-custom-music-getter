@@ -67,14 +67,12 @@ def download_song(songID, fileformat, filename)
       open(URI.encode(downloadURL)) do |uri|
         file.write(uri.read)
       end
-=begin
     rescue
       print "not replaced, error in download."
       File.delete("output/#{fileformat}/#{filename}.#{fileformat}")
       next
     else
       puts "replaced with #{songtitle}."
-=end
     end
   end
 end
@@ -85,6 +83,7 @@ def get_song_title(songID)
       fileinfo =  uri.metas["content-disposition"][0]
       songtitle = fileinfo[/(?<=filename=")[^\"]+/]
       songtitle.slice! ".brstm"
+      songtitle.gsub!(/[^0-9A-Za-z.\-]/, '_')
       return songtitle
     end
   rescue
