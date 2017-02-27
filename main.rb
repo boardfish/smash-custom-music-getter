@@ -51,8 +51,8 @@ def generate_csv
 end
 
 def download_song(songID, fileformat, filename)
-  FileUtils::mkdir_p "output/#{fileformat}"
-  outputpath = "output/#{fileformat}/#{filename}.#{fileformat}"
+  directory = set_directory("output", fileformat)
+  outputpath = directory+"/#{filename}.#{fileformat}"
   File.open(outputpath, 'wb') do |file|
     songtitle = ""
     begin
@@ -69,10 +69,12 @@ def download_song(songID, fileformat, filename)
       end
     rescue
       print "not replaced, error in download."
-      File.delete("output/#{fileformat}/#{filename}.#{fileformat}")
+      File.delete(directory+"#{filename}.#{fileformat}")
+      return set_directory("output", fileformat)
       next
     else
-      puts "replaced with #{songtitle}."
+      puts "done!"
+      return true
     end
   end
 end
@@ -87,7 +89,7 @@ def get_song_title(songID)
       return songtitle
     end
   rescue
-    puts "ERROR: Song not found."
+    FileUtils::mkdir_p "output/#{songID}" #PROGRESS
   end
 end
 
@@ -119,6 +121,7 @@ def parse_csv(originaltitles)
 end
 
 def parse_txt
+  directory = set_directory("output", fileformat)
   File.open("songlist1.txt").each do |link|
     input = URI.encode(link)
     songID = link.split("/")
@@ -127,9 +130,18 @@ def parse_txt
     puts(filename)
     print("Downloading...")
     download_song(songID, $fileformat, filename)
-    puts("done!")
   end
   puts "All done! Check the output folder."
+end
+
+def set_directory(root, fileformat, *manualsort)
+  directory = "#{root}/#{fileformat}"
+  manualsort.each do |subfolder|
+    directory+= "/" + subfolder
+  end
+  FileUtils::mkdir_p directory
+  puts directory
+  return directory
 end
 
 def menu
@@ -163,4 +175,5 @@ def menu
   menu
 end
 
-menu
+#menu
+set_directory("output", "brstm", "sad")
