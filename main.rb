@@ -50,9 +50,8 @@ def generate_csv
   end
 end
 
-def download_song(songID, fileformat, filename)
-  FileUtils::mkdir_p "output/#{fileformat}"
-  outputpath = "output/#{fileformat}/#{filename}.#{fileformat}"
+def download_song(songID, fileformat, filename, directory)
+  outputpath = directory+"/#{filename}.#{fileformat}"
   File.open(outputpath, 'wb') do |file|
     songtitle = ""
     begin
@@ -69,16 +68,17 @@ def download_song(songID, fileformat, filename)
       end
     rescue
       print "not replaced, error in download."
-      File.delete("output/#{fileformat}/#{filename}.#{fileformat}")
+      File.delete(directory+"#{filename}.#{fileformat}")
+      return set_directory("output", fileformat)
       next
     else
-      puts "replaced with #{songtitle}."
+      puts "done!"
+      return true
     end
   end
 end
 
 def get_song_title(songID)
-  begin
     open(URI.encode("http://smashcustommusic.com/brstm/#{songID}")) do |uri| #locked to brstm here, to prevent issues with getting MP3 metadata.
       fileinfo =  uri.metas["content-disposition"][0]
       songtitle = fileinfo[/(?<=filename=")[^\"]+/]
@@ -86,9 +86,6 @@ def get_song_title(songID)
       songtitle.gsub!(/[^0-9A-Za-z.\-]/, '_')
       return songtitle
     end
-  rescue
-    puts "ERROR: Song not found."
-  end
 end
 
 def parse_csv(originaltitles)
@@ -108,7 +105,7 @@ def parse_csv(originaltitles)
       end
       puts filename
       print("Downloading...")
-      download_song(songID, $fileformat, filename)
+      download_song(songID, $fileformat, filename, "output/#{$fileformat}")
       puts("Done!")
     end
   rescue
@@ -118,18 +115,40 @@ def parse_csv(originaltitles)
   end
 end
 
-def parse_txt
+def parse_txt(directory)
+  currentSubfolder=""
   File.open("songlist1.txt").each do |link|
     input = URI.encode(link)
     songID = link.split("/")
     songID = songID[songID.length-1].chomp
-    filename=get_song_title(songID)
-    puts(filename)
-    print("Downloading...")
-    download_song(songID, $fileformat, filename)
-    puts("done!")
+    begin
+      filename=get_song_title(songID)
+    rescue
+      puts currentSubfolder
+      unless currentSubfolder.nil? || currentSubfolder.empty?
+        directory.slice! currentSubfolder
+        puts "Sliced directory: " + directory
+      end
+      directory = set_directory(directory, link.chomp)
+      currentSubfolder = "/" + link.chomp
+      puts "Current subfolder: " + currentSubfolder
+    else
+      puts(filename)
+      print("Downloading...")
+      download_song(songID, $fileformat, filename, directory)
+    end
   end
   puts "All done! Check the output folder."
+end
+
+def set_directory(root, *manualsort)
+  directory = root
+  manualsort.each do |subfolder|
+    directory+= "/" + subfolder.chomp
+  end
+  FileUtils::mkdir_p directory
+  puts directory
+  return directory
 end
 
 def menu
@@ -141,6 +160,7 @@ def menu
     generate_csv
   when "download"
     $fileformat = choose($formats)
+    directory = set_directory("output", $fileformat)
     print "Choose an option [gamefile/title]: "
     input = gets.chomp
     case input
@@ -153,7 +173,7 @@ def menu
       when "csv"
         parse_csv(true)
       when "txt"
-        parse_txt
+        parse_txt(directory)
       end
     end
   when "exit"
