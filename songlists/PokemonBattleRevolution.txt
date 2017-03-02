@@ -1,0 +1,37 @@
+Battleboss01|Battleboss01 - Minor Boss Theme
+Battleboss02|Battleboss02 - Colosseum Leader - Kruger's Theme
+Battleboss03|Battleboss03 - Colosseum Leader - Joe's Theme
+Battleboss04|Battleboss04 - Colosseum Leader - Sashay's Theme
+Battlelastboss|Battlelastboss - Final Battle - Mysterial
+Battletopia01|Battletopia01 - Waterfall Colosseum
+Battletopia02|Battletopia02 - Magma Colosseum
+Battletopia03|Battletopia03 - Courtyard Colosseum
+Battletopia04|Battletopia04 - Sunny Park Colosseum
+Battletopia05|Battletopia05 - Sunset Colosseum
+Battletopia06|Battletopia06 - Stargazer Colosseum
+Battletopia07|Battletopia07 - Gateway Colosseum
+Battletopia08|Battletopia08 - Neon Colosseum
+Battletopia09|Battletopia09 - Main Street Colosseum
+Battletopia10|Battletopia10 - Crystal Colosseum
+endpoketopia|endpoketopia -
+ME_Fan01|ME_Fan01 - Match Intro 1
+ME_Fan02|ME_Fan02 - Match Intro 2
+ME_Fan03|ME_Fan03 - Match Intro 3
+ME_Fan04|ME_Fan04 - Match Intro 4
+ME_Fan05|ME_Fan05 - Match Intro 5
+ME_Fan06|ME_Fan06 - Match Intro 6
+ME_Fin|ME_Fin -
+ME_Loose|ME_Loose - Lose
+ME_Win|ME_Win - Win
+openpoketopia|openpoketopia -
+pokerev_music_demo_v2|pokerev_music_demo_v2 -
+System01|System01 - Choose a Colosseum
+System02|System02 - Nintendo WFC Menu
+System03|System03 - Reception Desk
+System04|System04 - Beta Track
+System05|System05 - 
+System06|System06 -
+System07|System07 - Battle Tutorial Menu
+System08|System08 - What's Your Name?
+System09|System09 - Main Menu - Game Mode Menu
+Title|Title - Title Screen

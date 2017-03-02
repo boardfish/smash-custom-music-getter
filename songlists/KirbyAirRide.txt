@@ -1,0 +1,64 @@
+2d_desert|2d_desert - Top Ride: Sand
+2d_desert_ura|2d_desert_ura -
+2d_kazan|2d_kazan -
+2d_kazan_ura|2d_kazan_ura -
+2d_kekka|2d_kekka - Top Ride: Results Screen
+2d_light|2d_light - Top Ride: Light
+2d_light_ura|2d_light_ura -
+2d_machine|2d_machine -
+2d_machine_ura|2d_machine_ura -
+2d_plants|2d_plants - Top Ride: Grass
+2d_plants_ura|2d_plants_ura - Kirby Super Star: The Mountain
+2d_sky|2d_sky -
+2d_sky_ura|2d_sky_ura -
+2d_water|2d_water -
+2d_water_ura|2d_water_ura -
+3d_check|3d_check - Checker Knights
+3d_check_ura|3d_check_ura - Green Greens
+3d_desert|3d_desert - Sky Sands
+3d_desert_ura|3d_desert_ura - Kirby Super Star: The Arena
+3d_ice|3d_ice - Frozen Hillside
+3d_ice_ura|3d_ice_ura - Kirby's Adventure: Rainbow Resort
+3d_kazan|3d_kazan - Magma Flows
+3d_kazan_ura|3d_kazan_ura - Kirby Super Star: Revenge of Meta Knight 1
+3d_kekka|3d_kekka - Air Ride: Results Screen
+3d_machine|3d_machine - Machine Passage
+3d_machine_ura|3d_machine_ura - Kirby Super Star: Revenge of Meta Knight 2
+3d_plants|3d_plants - Fantasy Meadows
+3d_plants_ura|3d_plants_ura - Kirby Super Star: Spring Breeze
+3d_sky|3d_sky - Beanstalk Park
+3d_sky_ura|3d_sky_ura - Kirby Super Star: The Beginner's Room
+3d_space|3d_space - Nebula Belt
+3d_space_ura|3d_space_ura - Kirby: Nightmare in Dream Land: Dream Land
+3d_valley|3d_valley - Celestial Valley
+3d_valley_ura|3d_valley_ura - Kirby's Adventure: Forest Stage
+city|city - City
+city_isogi|city_isogi - City (Not Much Time Left)
+city_ura|city_ura - City (Backside)
+clearchecker|clearchecker -
+dragoon|dragoon - Legendary Air Ride Machine
+ending|ending - Air Ride: Ending
+ending_city_us|ending_city_us -
+event_fog|event_fog - Dense Fog Today
+event_gordo|event_gordo -
+event_itembound|event_itembound - Item Bounce
+event_kyoseki|event_kyoseki -
+event_meteo|event_meteo - Flying Meteor
+event_monster|event_monster - Dyna Blade Intro
+event_stationfire|event_stationfire -
+event_supercharge|event_supercharge - Rowdy Charge Tank
+event_syoukinkubi|event_syoukinkubi - Tac Challenge
+event_toudai|event_toudai -
+finish_1|finish_1 -
+finish_2|finish_2 -
+finish_cp|finish_cp -
+graph|graph - Properties Graph
+howto|howto - Play Methods
+menu|menu - Menu
+opening|opening -
+retire|retire -
+StadiumIntro|StadiumIntro -
+studium_04|studium_04 - Drag Race
+studium_airgrider|studium_airgrider - Air Glider
+studium_battle|studium_battle -
+studium_point|studium_point - 

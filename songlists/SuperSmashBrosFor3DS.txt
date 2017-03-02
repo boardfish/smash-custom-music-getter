@@ -1,0 +1,245 @@
+BrawlStage|Main Menu
+snd_bgm_CRS01_Menu_3DS|CRS01 - Menu
+snd_bgm_W33_SBDX_Menu2_3DS|W33 - Menu 2 (Melee)
+BrawlStage|Battlefield
+snd_bgm_CRS02_Senjyou_3DS|CRS02 - Battlefield
+snd_bgm_W34_SBDX_Menu_3DS|W34 - Menu (Melee)
+BrawlStage|Final Destination
+snd_bgm_CRS03_Shuuten_3DS|CRS03 - Final Destination
+snd_bgm_W35_SBDX_Menu_ver2_3DS|W35 - Menu (Melee): Ver. 2
+BrawlStage|3D Land
+snd_bgm_A27a_3DL_SMB_Theme_Part1_3DS|A27a - Super Mario 3D Land Theme
+snd_bgm_A27b_3DL_SMB_Theme_Part2_3DS|A27b - Beach Theme
+snd_bgm_A27_3DL_SMB_Theme_3DS|A27 - Super Mario 3D Land Theme / Beach Theme
+snd_bgm_A25_SMB3_Medley_3DS|A25 - Super Mario Bros. 3 Medley
+BrawlStage|Golden Plains
+snd_bgm_A26_NEW2_Athletic_Chijyou_3DS|A26 - Athletic Theme / Ground Theme
+snd_bgm_A24_SMB_Chijyou_Chika_3DS|A24 - Ground Theme / Underground Theme
+BrawlStage|Rainbow Road
+snd_bgm_A30_MKT_RainbowRoad_Medley_3DS|A30 - Rainbow Road Medley
+snd_bgm_A31_MKT7_RainbowRoad_3DS|A31 - Rainbow Road (Mario Kart 7)
+BrawlStage|Paper Mario
+snd_bgm_A29a_PPM_Medley_Part1_3DS|A29a - Paper Mario (Ground)
+snd_bgm_A29b_PPM_Medley_Part2_3DS|A29b - Paper Mario (Ship)
+snd_bgm_A29c_PPM_Medley_Part3_3DS|A29c - Paper Mario (Bowser's Castle)
+snd_bgm_A29_PPM_Medley_3DS|A29 - Paper Mario Medley
+snd_bgm_A28_MALRPG4_TryAndTry_3DS|A28 - Try, Try Again
+BrawlStage|Mushroomy Kingdom
+snd_bgm_A01_SMB_Chijyou_3DS|A01 - Ground Theme (Super Mario Bros.)
+snd_bgm_A02_SMB_Chika_3DS|A02 - Underground Theme (Super Mario Bros.)
+BrawlStage|Jungle Japes
+snd_bgm_T06_SPR_KongoJungle_3DS|T06 - Kongo Jungle
+snd_bgm_B11_RTN_ThrillGearFlight_3DS|B11 - Gear Getaway
+BrawlStage|Gerudo Valley
+snd_bgm_C22_TNO_GerudoNoTani_3DS|C22 - Gerudo Valley
+snd_bgm_C09_TNO_Medley_3DS|C09 - Ocarina of Time Medley
+BrawlStage|Spirit Train
+snd_bgm_C23_DNK_TrainField2_3DS|C23 - Full Stream Ahead (Spirit Tracks)
+snd_bgm_C20_ZLD_MainTheme_Chika_3DS|C20 - Main Theme / Underworld Theme
+BrawlStage|Brinstar
+snd_bgm_W27_MR_Brinstar_3DS|W27 - Brinstar
+snd_bgm_W04_MR_BrinstarShinbu_3DS|W04 - Brinstar Depths
+BrawlStage|Yoshi's Island
+snd_bgm_E02a_ILD_Athletic_Spring_Summer_3DS|E02a - Obstacle Course (Spring/Summer)
+snd_bgm_E02b_ILD_Athletic_Autumn_Winter_3DS|E02b - Obstacle Course (Fall/Winter)
+snd_bgm_E01_STR_Ending_3DS|E01 - Ending (Yoshi's Story)
+BrawlStage|Dream Land
+snd_bgm_F14_KBY_GB_GreenGreens_3DS|F14 - Green Greens
+snd_bgm_F15_KBY_GB_CastleLololo_3DS|F15 - Castle Lololo
+snd_bgm_F16_KBY_GB_FloatIslands_3DS|F16 - Float Islands
+snd_bgm_F17_KBY_GB_BubblyClouds_3DS|F17 - Bubbly Clouds
+snd_bgm_F18_KBY_GB_MtDedede_3DS|F18 - Mt. Dedede
+snd_bgm_F13_KBY_GreenGreens_ver2_3DS|F13 - Green Greens Ver. 2
+BrawlStage|Dream Land 64
+snd_bgm_T09_SDX_PupupuLand_3DS|T09 - Dream Land (Super Smash Bros.)
+snd_bgm_F30_YIM_IceCreamIsland_3DS|F30 - Ice Cream Island
+BrawlStage|Corneria
+snd_bgm_W08_SFX_Cornelia_3DS|W08 - Corneria
+snd_bgm_G12_SFX64_StarWolf_SectorZ_3DS|G12 - Star Wolf's Theme / Sector Z
+BrawlStage|Unova Pokémon League
+snd_bgm_H11_BW_N_Medley_3DS|H11 - N's Castle Medley
+snd_bgm_H12_BW_Sentou_Zekrom_Reshiram_3DS|H12 - Battle! (Reshiram / Zekrom)
+BrawlStage|Prism Tower
+snd_bgm_H13_XY_Sentou_Trainer_3DS|H13 - Battle! (Trainer Battle)
+snd_bgm_H14_XY_MiareCity_3DS|H14 - Lumiose City
+BrawlStage|Mute City
+snd_bgm_I12_FZR_SFC_MuteCity_3DS|I12 - Mute City
+snd_bgm_I11_FZR_MuteCity_3DS|I11 - Mute City Ver. 3
+BrawlStage|Magicant
+snd_bgm_K11_MTR_Magicant_EightMelodies_3DS|K11 - Magicant / Eight Melodies (Mother)
+snd_bgm_K12_MTR2_SmileAndTears_3DS|K12 - Smiles and Tears
+BrawlStage|Arena Ferox
+snd_bgm_J14_KSI_I_I_3DS|J14 - Id (Purpose)
+snd_bgm_W17_FEM_FireEmblem_3DS|W17 - Fire Emblem
+BrawlStage|Flat Zone 2
+snd_bgm_R04_GW_FlatZone2_3DS|R04 - Flat Zone 2
+snd_bgm_W14_GW_FlatZone_3DS|W14 - Flat Zone
+BrawlStage|Reset Bomb Forest
+snd_bgm_P05a_SHS_SyokikaBakudanNoKyoufu_Part1_3DS|P05a - Wrath of the Reset Bomb (Part 1)
+snd_bgm_P05b_SHS_SyokikaBakudanNoKyoufu_Part2_3DS|P05b - Wrath of the Reset Bomb (Part 2)
+snd_bgm_P05_SHS_SyokikaBakudanNoKyoufu_3DS|P05 - Wrath of the Reset Bomb
+snd_bgm_P09_SHS_BlackPitNoTheme_3DS|P09 - Dark Pit's Theme
+BrawlStage|WarioWare, Inc.
+snd_bgm_M01_MIW_MadeInWario_3DS|M01 - WarioWare, Inc.
+snd_bgm_M07_SMW_AshreyNoTheme_3DS|M07 - Ashley's Song (Japanese)
+snd_bgm_M08_SMW_AshreysSong_3DS|M08 - Ashley's Song (English)
+snd_bgm_M09_MIW_Game_Yokero_3DS|M09 - Game_Yokero
+snd_bgm_M10_MIW_Game_Fumareruna_3DS|M10 - Game_Fumareruna
+snd_bgm_M11_MIW_Game_Kawase_3DS|M11 - Game_Kawase
+snd_bgm_M12_MIW_Game_Nureruna_3DS|M12 - Game_Nureruna
+snd_bgm_M13_MIW_Game_Tobe_3DS|M13 - Game_Tobe
+snd_bgm_M15_MIW_Game_Narase_3DS|M15 - Game_Narase
+snd_bgm_M16_MIW_Game_Kudake_3DS|M16 - Game_Kudake
+snd_bgm_M17_MIW_Game_Ugokuna_3DS|M17 - Game_Ugokuna
+snd_bgm_M18_MIW_Game_Appeal_3DS|M18 - Game_Appeal
+BrawlStage|Distant Planet
+snd_bgm_L06_PIK_MainTheme_3DS|L06 - Main Theme (Pikmin)
+snd_bgm_L09_PIK2_StageSelect_3DS|L09 - Stage Select
+BrawlStage|Tortimer Island
+snd_bgm_N13_TBD_KotobukiLand_Medley_3DS|N13 - Tortimer Island Medley
+snd_bgm_N14_TBD_KappeiNoUta_3DS|N14 - Kappn'n's Song
+BrawlStage|Boxing Ring
+snd_bgm_Q18_PO_Running_CountDown_3DS|Q18 - Jogging / Countdown
+snd_bgm_R21_WPO_MinorCircuit_3DS|R21 - Minor Circuit
+BrawlStage|Gaur Plain
+snd_bgm_R23_XBD_GaurHeigen_3DS|R23 - Gaur Plain
+snd_bgm_R24_XBD_NawoKansuruMonotachi_3DS|R24 - You Will Know Our Names
+BrawlStage|Balloon Fight
+snd_bgm_Q15_BFT_Medley_3DS|Q15 - Balloon Fight Medley
+snd_bgm_Q16_BFT_BalloonTrip_3DS|Q16 - Balloon Trip
+BrawlStage|Living Room
+snd_bgm_R18_NTD_Shower_3DS|R18 - Bath Time Theme
+snd_bgm_R19_NTD_Shower_ver2_3DS|R19 - Bath Time Theme (Vocal Mix)
+BrawlStage|Find Mii
+snd_bgm_R27_SCD2_YamiNoOu_3DS|R27 - Dark Lord
+snd_bgm_R26_SCD2_SekaiWoSukueYuushayo_3DS|R26 - Save the World, Heroes!
+BrawlStage|Tomodachi Life
+snd_bgm_R22_TDCS_TomodachiCollection_3DS|R22 - Tomodachi Life
+snd_bgm_R20_NGC_NigaoeHiroba_3DS|R20 - Mii Plaza
+BrawlStage|PictoChat 2
+snd_bgm_R02_PictoChat_3DS|R02 - PictoChat
+snd_bgm_W20_DRM_DrMario_3DS|W20 - Dr. Mario
+BrawlStage|Green Hill Zone
+snd_bgm_U01_SNC_GreenHillZone_3DS|U01 - Green Hill Zone
+snd_bgm_U09_SADV2_LiveAndLearn_3DS|U09 - Live & Learn
+BrawlStage|Wily Castle
+snd_bgm_S01_RM2_Medley_3DS|S01 - Mega Man 2 Medley
+snd_bgm_S04_RM2_OriginalMedley_3DS|S04 - Mega Man 2 Retro Medley
+BrawlStage|PAC-MAZE
+snd_bgm_V01_PAC_PacMan_3DS|V01 - PAC-MAN
+snd_bgm_V02_PAC_PacMan_ClubMix_3DS|V02 - PAC-MAN (Club Mix)
+BrawlStage|Suzaku Castle
+snd_bgm_SF01a_SF2_Ryu_3DS|SF01a - Ryu Stage Type A
+snd_bgm_SF01b_SF2_Ryu_Pinch_3DS|SF01b - Ryu Stage Type A (Pinch)
+snd_bgm_SF05_SF2_RyuStage_3DS|SF05 - Ryu Stage
+BrawlStage|Smash Run
+snd_bgm_ENEMY_Orne_Jingle_3DS|ENEMY - Orne Jingle
+snd_bgm_ENEMY_Shinigami_Jingle_3DS|ENEMY - Reaper Jingle
+snd_bgm_B06_SPR2_TogetogeTaruMeiro_3DS|B06 - Stickerbush Symphony
+snd_bgm_C21_TRI_UraNoChijyou_UraDungeon_3DS|C21 - Dark World / Dark World Dungeon
+snd_bgm_C24_SWS_MegamiNoUta_Ghirahim_3DS|C24 - Ballad of the Goddess / Ghirahim's Theme
+snd_bgm_F01_AIR_AirRideMachine_3DS|F01 - The Legendary Air Ride Machine
+snd_bgm_G13_SFX64_CMD_Area6_Missle_3DS|G13 - Theme from Area 6 / Missile Slipstream
+snd_bgm_J04_GDN_MiraNoKagoToTomoni_3DS|J04 - With Mila's Divine Protection (Celica Map 1)
+snd_bgm_P06_SHS_SeizokuSen_3DS|P06 - In the Space-Pirate Ship
+snd_bgm_P07_SHS_BossSen1_3DS|P07 - Boss Fight 1
+snd_bgm_P08_SHS_KuroiPit_3DS|P08 - Dark Pit
+snd_bgm_P10_SHS_SyokikaBakudanNoKyoufu_3DS|P10 - Wrath of the Reset Bomb
+snd_bgm_Q10_TRS_TypeA_3DS|Q10 - Tetris: Type A
+snd_bgm_Q17_NMJ_Medley_3DS|Q17 - The Mysterious Murasame Castle Medley
+snd_bgm_R25_XBD_KiNoRitsudou_3DS|R25 - Mechanical Rhythm
+snd_bgm_S02_RM2_AirMan_Stage_3DS|S02 - Air Man Stage
+snd_bgm_S03_RM3_SparkMan_Stage_3DS|S03 - Spark Man Stage
+snd_bgm_T07_SB_StaffRoll_3DS|T07 - Credits (Smash Bros.): Ver. 2
+snd_bgm_V03_MNA_PacMansPark_BlockTown_3DS|V03 - PAC-MAN'S PARK / BLOCK TOWN
+snd_bgm_W02_SM64_RainbowCruise_3DS|W02 - Rainbow Cruise
+snd_bgm_W24_LNK_Shinden_3DS|W24 - Temple Theme
+snd_bgm_X18_SBX_BossBattle_3DS|X18 - Boss Battle
+BrawlStage|Victory Themes
+snd_bgm_Z00_F_MiiFighter_3DS|Z00 - Mii Victory
+snd_bgm_Z01_F_Mario_3DS|Z01 - Mario Victory
+snd_bgm_Z02_F_Donkey_3DS|Z02 - Donkey Kong Victory
+snd_bgm_Z03_F_Link_3DS|Z03 - Link Victory
+snd_bgm_Z04_F_Samus_3DS|Z04 - Samus Victory
+snd_bgm_Z05_F_Yoshi_3DS|Z05 - Yoshi Victory
+snd_bgm_Z06_F_Kirby_3DS|Z06 - Kirby Victory
+snd_bgm_Z07_F_Fox_3DS|Z07 - Fox Victory
+snd_bgm_Z08_F_Pikachu_3DS|Z08 - Pikachu Victory
+snd_bgm_Z09_F_Luigi_3DS|Z09 - Luigi Victory
+snd_bgm_Z10_F_Captain_3DS|Z10 - Captain Falcon Victory
+snd_bgm_Z11_F_Ness_3DS|Z11 - Ness Victory
+snd_bgm_Z12_F_Koopa_3DS|Z12 - Bowser Victory
+snd_bgm_Z13_F_Peach_3DS|Z13 - Peach Victory
+snd_bgm_Z14_F_Zelda_3DS|Z14 - Zelda Victory
+snd_bgm_Z15_F_Sheik_3DS|Z15 - Sheik Victory
+snd_bgm_Z17_F_Marth_3DS|Z17 - Marth Victory
+snd_bgm_Z18_F_GameWatch_3DS|Z18 - Mr. Game &amp; Watch Victory
+snd_bgm_Z19_F_Falco_3DS|Z19 - Falco Victory
+snd_bgm_Z20_F_Ganon_3DS|Z20 - Ganondorf Victory
+snd_bgm_Z21_F_Wario_3DS|Z21 - Wario Victory
+snd_bgm_Z22_F_Metaknight_3DS|Z22 - Meta Knight Victory
+snd_bgm_Z23_F_Pit_3DS|Z23 - Pit Victory
+snd_bgm_Z24_F_ZeroSamus_3DS|Z24 - Zero Suit Samus Victory
+snd_bgm_Z25_F_Pikmin_3DS|Z25 - Olimar Victory
+snd_bgm_Z27_F_Diddy_3DS|Z27 - Diddy Kong Victory
+snd_bgm_Z32_F_Dedede_3DS|Z32 - King Dedede Victory
+snd_bgm_Z33_F_Lucario_3DS|Z33 - Lucario Victory
+snd_bgm_Z34_F_Ike_3DS|Z34 - Ike Victory
+snd_bgm_Z35_F_Robot_3DS|Z35 - R.O.B. Victory
+snd_bgm_Z37_F_Purin_3DS|Z37 - Jigglypuff Victory
+snd_bgm_Z41_F_ToonLink_3DS|Z41 - Toon Link Victory
+snd_bgm_Z47_F_Sonic_3DS|Z47 - Sonic Victory
+snd_bgm_Z59_F_Lizardon_3DS|Z59 - Charizard Victory
+snd_bgm_Z60_F_MarioD_3DS|Z60 - Dr. Mario Victory
+snd_bgm_Z61_F_Lucina_3DS|Z61 - Lucina Victory
+snd_bgm_Z62_F_PitB_3DS|Z62 - Dark Pit Victory
+snd_bgm_Z63_F_Rosetta_3DS|Z63 - Rosalina &amp; Luma Victory
+snd_bgm_Z64_F_Wiifit_3DS|Z64 - Wii Fit Trainer Victory
+snd_bgm_Z65_F_Littlemac_3DS|Z65 - Little Mac Victory
+snd_bgm_Z66_F_Murabito_3DS|Z66 - Villager Victory
+snd_bgm_Z67_F_Palutena_3DS|Z67 - Palutena Victory
+snd_bgm_Z68_F_Reflet_3DS|Z68 - Robin Victory
+snd_bgm_Z69_F_Duckhunt_3DS|Z69 - Duck Hunt Victory
+snd_bgm_Z70_F_Koopajr_3DS|Z70 - Bowser Jr. Victory
+snd_bgm_Z71_F_Shulk_3DS|Z71 - Shulk Victory
+snd_bgm_Z72_F_Gekkouga_3DS|Z72 - Greninja Victory
+snd_bgm_Z73_F_Pacman_3DS|Z73 - Pac-man Victory
+snd_bgm_Z74_F_Rockman_3DS|Z74 - Mega Man Victory
+snd_bgm_Z80_F_Mewtwo_3DS|Z80 - Mewtwo Victory
+snd_bgm_Z81_F_Ryu_3DS|Z81 - Ryu Victory
+snd_bgm_Z82_F_Lucas_3DS|Z82 - Lucas Victory
+snd_bgm_Z83_F_Roy_3DS|Z83 - Roy Victory
+BrawlStage|Other
+snd_bgm_CRS04_Kumite_3DS|CRS04 - Multi-Man Smash
+snd_bgm_CRS05_MasterHand_3DS|CRS05 - Master Hand
+snd_bgm_CRS06_MasterCore_3DS|CRS06 - Master Core
+snd_bgm_CRS07_Online_3DS|CRS07 - Online Practice Stage
+snd_bgm_CRS08_Simple_Map_3DS|CRS08 - Classic: Map
+snd_bgm_CRS09_Simple_Map_Intro_3DS|CRS09 - Classic: Match Intro
+snd_bgm_CRS10_Simple_Intro_3DS|CRS10 -
+snd_bgm_CRS11_Simple_Result_3DS|CRS11 - Classic: Results Screen
+snd_bgm_CRS12_Simple_Result_Final_3DS|CRS12 - Classic: Final Results
+snd_bgm_CRS13_Simple_Result_Failure_3DS|CRS13 - Classic: Fail
+snd_bgm_CRS14_Chronicle_3DS|CRS14 - Classic: Clear
+snd_bgm_CRS15_Rest_3DS|CRS15 - All-Star Rest Area
+snd_bgm_CRS16_SmashBomber_3DS|CRS16 - Target Blast
+snd_bgm_CRS17_SmashBomber_Result_3DS|CRS17 - Target Blast: Results
+snd_bgm_CRS18_FigureMeikan_3DS|CRS18 - Gallery/Hoard
+snd_bgm_CRS19_FigureShop_3DS|CRS19 - Trophy Shop
+snd_bgm_CRS20_FigureRush_3DS|CRS20 - Trophy Rush
+snd_bgm_CRS21_Album_3DS|CRS21 - Replay/Album/Records
+snd_bgm_CRS22_SurechigaiDairantou_3DS|CRS22 - StreetSmash
+snd_bgm_CRS23_Asobikata_3DS|CRS23 - How to Play
+snd_bgm_CRS24_VS_Result_3DS|CRS24 - Results Display Screen
+snd_bgm_CRS25_StaffRoll_3DS|CRS25 - Credits
+snd_bgm_X16_SBX_HomerunContest_3DS|X16 - Home Run Contest
+snd_bgm_X17_SBX_NasakeMuyouKumite_3DS|X17 - Cruel Smash
+snd_bgm_Z50_J_Continue_3DS|Z50 - Continue?
+snd_bgm_Z51_J_GameOver_3DS|Z51 - Game Over
+snd_bgm_Z54_J_FigureGet_3DS|Z54 - Get Trophy
+snd_bgm_Z55_J_RareFigure_3DS|Z55 - Get Rare Trophy
+snd_bgm_Z57_J_Youso01_3DS|Z57 - Unlock Jingle
+snd_bgm_Z58_J_Youso02_3DS|Z58 - Unlock Jingle 2
+snd_bgm_SEQ_item_Superstar_3DS|SEQ - Starman
+snd_bgm_SEQ_item_Hammer_3DS|SEQ - Hammer
+snd_bgm_SEQ_item_Goldenhammer_3DS|SEQ - Golden Hammer

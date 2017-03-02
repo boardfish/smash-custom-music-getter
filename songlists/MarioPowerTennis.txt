@@ -1,0 +1,111 @@
+bg01|bg01 - Tournament 1st Round
+bg02|bg02 - Tournament 2nd Round
+bg03|bg03 - World Open Finals
+bg04|bg04 - Star Tournament Finals
+bg05|bg05 - Gimmick Masters Finals
+daisy-s|daisy-s -
+diddy-s|diddy-s -
+dol-bg1|dol-bg1 -
+dol-bg2|dol-bg2 -
+dol-bg3|dol-bg3 -
+dol-brk|dol-brk - Delfino Plaza Court - Game Point
+dol-jin|dol-jin - Delfino Plaza Court - Intro
+dol-kach|dol-kach - Delfino Plaza Court - Win
+dol-make|dol-make - Delfino Plaza Court - Loss
+dol-set|dol-set - Delfino Plaza Court - Set Point
+dol-tai|dol-tai - Delfino Plaza Court - Tiebreaker
+don-bg1|don-bg1 -
+don-bg2|don-bg2 -
+don-bg3|don-bg3 - Balloon Panic
+don-brek|don-brek - DK Jungle Court - Game Point
+don-jin|don-jin - DK Jungle Court - Intro
+don-kach|don-kach - DK Jungle Court - Win
+don-make|don-make - DK Jungle Court - Loss
+don-set|don-set - DK Jungle Court - Set Point
+don-tai|don-tai - DK Jungle Court - Tiebreaker
+donkey-s|donkey-s -
+doubles|doubles -
+doubles2|doubles2 -
+doubles3|doubles3 -
+end-j2|end-j2 -
+end2|end2 - Ending
+ges-bg1|ges-bg1 - Gooper Blooper Volley
+ges-bg2|ges-bg2 -
+ges-bg3|ges-bg3 - Gooper Blooper Court - Exhibition
+ges-brk|ges-brk - Gooper Blooper Court - Game Point
+ges-jin|ges-jin - Gooper Blooper Court - Into
+ges-kach|ges-kach - Gooper Blooper Court - Win
+ges-make|ges-make - Gooper Blooper Court - Loss
+ges-set|ges-set - Gooper Blooper Court - Set Point
+ges-tai|ges-tai - Gooper Blooper Court - Tie Break
+get|get - Completion Fanfare
+hana-s|hana-s -
+heiho-s|heiho-s -
+ko-jr-s|ko-jr-s -
+kup-bg1|kup-bg1 -
+kup-bg2|kup-bg2 -
+kup-bg3|kup-bg3 -
+kup-bre|kup-bre - Bowser's Castle Court - Game Point
+kup-jin|kup-jin - Bowser's Castle Court - Intro
+kup-kach|kup-kach - Bowser's Castle Court - Win
+kup-make|kup-make - Bowser's Castle Court - Loss
+kup-set|kup-set - Bowser's Castle Court - Set Point
+kup-tai|kup-tai - Bowser's Castle Court - Tie Break
+kuppa-s|kuppa-s -
+level-u|level-u -
+lubg2-3|lubg2-3 -
+lui-bg1|lui-bg1 -
+lui-bg3|lui-bg3 - Terror Tennis
+lui-brk|lui-brk - Luigi's Mansion Court - Game Point
+lui-jin|lui-jin - Luigi's Mansion Court - Intro
+lui-kach3|lui-kach3 - Luigi's Mansion Court - Win
+lui-make|lui-make - Luigi's Mansion Court - Loss
+lui-set2|lui-set2 - Luigi's Mansion Court - Set Point
+lui-tai|lui-tai - Luigi's Mansion Court - Tie Break
+luisi-s|luisi-s -
+mar-bg1-3|mar-bg1-3 - Coin Collectors
+mar-bg2|mar-bg2 -
+mar-bg3|mar-bg3 -
+mar-brk|mar-brk - Mario Classic Court - Game Point
+mar-jin|mar-jin - Mario Classic Court - Intro
+mar-kach|mar-kach - Mario Classic Court - Win
+mar-make|mar-make - Mario Classic Court - Loss
+mar-set|mar-set - Mario Classic Court - Set Point
+mar-tai|mar-tai - Mario Classic Court - Tiebreaker
+mario-s2-sakuraba|mario-s2-sakuraba -
+mario-s2|mario-s2 -
+menu|menu -
+menu2|menu2 - Main Menu
+new|new -
+noko-s|noko-s -
+p-hey-s|p-hey-s -
+pakkun-s|pakkun-s -
+pata-s|pata-s -
+pch-bg1|pch-bg1 - Artist on the Court
+pch-bg2|pch-bg2 - Exhibition - Peach Dome Court
+pch-bg3|pch-bg3 -
+pch-brk|pch-brk - Game Point / Break Point - Peach Dome Court
+pch-jin|pch-jin - Intro - Peach Dome Court
+pch-kach|pch-kach - Win - Peach Dome Court
+pch-make|pch-make - Lose - Peach Dome Court
+pch-set|pch-set - Set Point / Match Point - Peach Dome Court
+pch-tai|pch-tai - Tie Break - Peach Dome Court
+peach-s|peach-s -
+result|result -
+state|state -
+teres-s|teres-s -
+title|title - Title Theme (Short)
+title2|title2 - Title Theme
+torna|torna - Tournament Bracket
+war-bg1|war-bg1 - Chain Chomp Challenge
+war-bg2|war-bg2 -
+war-bg3|war-bg3 -
+war-brk|war-brk - Wario Factory Court - Game Point / Break Point
+war-jin|war-jin - Wario Factory Court - Intro
+war-kach|war-kach - Wario Factory Court - Win
+war-make|war-make - Wario Factory Court - Loss
+war-set|war-set - Wario Factory Court - Set Point / Match Point
+war-tai|war-tai - Wario Factory Court - Tie Break
+wario-s|wario-s -
+warui-s|warui-s -
+yossi-s|yossi-s - 

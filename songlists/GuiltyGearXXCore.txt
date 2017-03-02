@@ -1,0 +1,45 @@
+00|00 - Anji
+01|01 - Assassins
+02|02 - Axl
+03|03 - Baiken
+04|04 - Same Character ALPHA
+05|05 - Character Select
+06|06 - Chipp
+07|07 - Continue
+08|08 - Dizzy
+09|09 - Faust
+10|10 - Game Over
+11|11 - I-no
+12|12 - Jam
+13|13 - Johnny
+14|14 - Ky
+15|15 - Final Battle
+16|16 - May
+17|17 - Millia
+18|18 - Opening
+19|19 - Potemkin
+20|20 - Slayer
+21|21 - Sol
+22|22 - Sol vs. Ky ALPHA
+23|23 - Testament
+24|24 - Venom
+25|25 - Versus
+26|26 - Bridget
+27|27 - Zappa
+28|28 - Zato-1
+29|29 - Ending 1
+30|30 - Ending 2
+31|31 - Ending 3
+32|32 - Robo-Ky BETA
+33|33 - Kliff
+34|34 - Justice
+35|35 - Sol vs. Ky BETA
+36|36 - Same Character BETA
+37|37 - Millia vs. Zato
+38|38 - Survival Results
+39|39 - Options
+40|40 - Robo-Ky DAY
+41|41 - Robo-Ky NIGHT
+42|42 - A.B.A.
+43|43 - Order Sol
+44|44 - Order Sol vs. Ky
