@@ -1,111 +1,111 @@
-n_block_F|n_block_F - Block Plaza (Fast)
-n_block_n|n_block_n - Block Plaza
-n_BossMI_32|n_BossMI_32 - Boss (Competition/Tournament)
-n_casino_F|n_casino_F - Chain Chomp Wheel/Roulette (Fast)
-n_casino_n|n_casino_n - Chain Chomp Wheel/Roulette
-n_Circuit32_f|n_Circuit32_f - Mario/Luigi Circuit (Final Lap)
-n_Circuit32_n|n_Circuit32_n - Mario/Luigi Circuit
-n_Daisy32_f|n_Daisy32_f - Daisy Circuit (Final Lap)
-n_Daisy32_n|n_Daisy32_n - Daisy Circuit
-n_Farm_F|n_Farm_F - Moo Moo Meadows (Final Lap)
-n_Farm_n|n_Farm_n - Moo Moo Meadows
-n_Kinoko_F|n_Kinoko_F - Mushroom Gorge (Final Lap)
-n_Kinoko_n|n_Kinoko_n - Mushroom Gorge
-n_maple_F|n_maple_F - Maple Treeway (Final Lap)
-n_maple_n|n_maple_n - Maple Treeway
-n_Rainbow32_f|n_Rainbow32_f - Rainbow Road (Final Lap)
-n_Rainbow32_n|n_Rainbow32_n - Rainbow Road
-n_ryuusa_F|n_ryuusa_F - Thwomp Desert (Fast)
-n_ryuusa_n|n_ryuusa_n - Thwomp Desert
-n_Shopping32_f|n_Shopping32_f - Coconut Mall (Final Lap)
-n_Shopping32_n|n_Shopping32_n - Coconut Mall
-n_skate_F|n_skate_F - Funky Stadium (Fast)
-n_skate_n|n_skate_n - Funky Stadium
-n_Snowboard32_F|n_Snowboard32_F - DK Summit/DK's Snowboard Cross (Final Lap)
-n_Snowboard32_n|n_Snowboard32_n - DK Summit/DK's Snowboard Cross
-n_venice_F|n_venice_F - Delfino Pier (Fast)
-n_venice_n|n_venice_n - Delfino Pier
-n_Volcano32_f|n_Volcano32_f - Grumble Volcano (Final Lap)
-n_Volcano32_n|n_Volcano32_n - Grumble Volcano
-o_Crs_In_Fan|o_Crs_In_Fan - Course Intro (Grand Prix & VS)
-o_Crs_In_Fan_battle|o_Crs_In_Fan_battle - Course Intro (Battle)
-o_Crs_In_Fan_mission|o_Crs_In_Fan_mission - Course Intro (Boss)
-o_Crs_In_Fan_Wifi|o_Crs_In_Fan_Wifi - Course Intro (Wi-Fi)
-o_Ending_PartA_32|o_Ending_PartA_32 - Ending (Part A)
-o_FanfareBTdraw_32|o_FanfareBTdraw_32 - Battle Draw + Results
-o_FanfareGP1_32|o_FanfareGP1_32 - 1st Place Goal (Grand Prix & VS) + Results
-o_FanfareGP1_only32|o_FanfareGP1_only32 - 1st Place Goal (Grand Prix & VS)
-o_FanfareGP2_32|o_FanfareGP2_32 - Top Goal (Grand Prix & VS) + Results
-o_FanfareGP2_only32|o_FanfareGP2_only32 - Top Goal (Grand Prix & VS)
-o_FanfareGPdame_32|o_FanfareGPdame_32 - Low Goal (Grand Prix & VS) + Results
-o_FanfareGPdame_only32|o_FanfareGPdame_only32 - Low Goal (Grand Prix & VS)
-o_FanfareMIlose_32|o_FanfareMIlose_32 - Lose (Competition/Tournament)/Team Fail (Battle)/Rank Out (Time Trial) + Results
-o_FanfareMIlose_only32|o_FanfareMIlose_only32 - Lose (Competition/Tournament)/Team Fail (Battle)/Rank Out (Time Trial)
-o_FanfareMIwin_32|o_FanfareMIwin_32 - Team Victory (Battle)/Ranking (Time Trial) + Results
-o_FanfareMIwin_only32|o_FanfareMIwin_only32 - Team Victory (Battle)/Ranking (Time Trial)
-o_FanfareMIWinBoss_32|o_FanfareMIWinBoss_32 - Victory (Boss)
-o_FanfareTA1st_32|o_FanfareTA1st_32 - Victory (Competition/Tournament)/First Place in Team (Battle)/New Score (Time Trial) + Results
-o_FanfareTA1st_only32|o_FanfareTA1st_only32 - First Place in Team (Battle)/New Score (Time Trial)
-o_hyousyou_cut|o_hyousyou_cut - Award Ceremony (Get Trophy - Short)
-o_hyousyou_lose|o_hyousyou_lose - No Trophy For You
-o_hyousyou_normal|o_hyousyou_normal - Award Ceremony (Get Trophy)
-o_hyousyou_winningrun|o_hyousyou_winningrun - Award Ceremony (Winning Run~Get Trophy)
-o_Option_32|o_Option_32 - Options
-o_Start2_32_fan|o_Start2_32_fan - Race Start (Time Trial & Competition/Tournament)
-o_Start32_fan|o_Start32_fan - Race Start (Grand Prix & VS)
-o_Wi-Fi_waiting32|o_Wi-Fi_waiting32 - Wi-Fi Match/Ghost Replay
-r_64_battle_F|r_64_battle_F - N64 Skyscraper (Fast)
-r_64_battle_n|r_64_battle_n - N64 Skyscraper
-r_64_Circuit32_f|r_64_Circuit32_f - N64 Mario Raceway (Final Lap)
-r_64_circuit32_n|r_64_circuit32_n - N64 Mario Raceway
-r_64_Jungle32_f|r_64_Jungle32_f - N64 DK's Jungle Parkway (Final Lap)
-r_64_Jungle32_n|r_64_Jungle32_n - N64 DK's Jungle Parkway
-r_64_Kuppa32_f|r_64_Kuppa32_f - N64 Bowser's Castle (Final Lap)
-r_64_Kuppa32_n|r_64_Kuppa32_n - N64 Bowser's Castle
-r_64_Sherbet32_f|r_64_Sherbet32_f - N64 Sherbet Land (Final Lap)
-r_64_Sherbet32_n|r_64_Sherbet32_n - N64 Sherbet Land
-r_agb_battle_F|r_agb_battle_F - GBA Battle Course 3 (Fast)
-r_agb_battle_n|r_agb_battle_n - GBA Battle Course 3
-r_AGB_Beach32_f|r_AGB_Beach32_f - GBA Shy Guy Beach (Final Lap)
-r_AGB_Beach32_n|r_AGB_Beach32_n - GBA Shy Guy Beach
-r_AGB_Kuppa32_f|r_AGB_Kuppa32_f - GBA Bowser Castle 3 (Final Lap)
-r_AGB_Kuppa32_n|r_AGB_Kuppa32_n - GBA Bowser Castle 3
-r_ds_battle_F|r_ds_battle_F - DS Twilight House (Fast)
-r_ds_battle_n|r_ds_battle_n - DS Twilight House
-r_DS_Desert32_f|r_DS_Desert32_f - DS Desert Hills (Final Lap)
-r_DS_Desert32_n|r_DS_Desert32_n - DS Desert Hills
-r_DS_Garden32_f|r_DS_Garden32_f - DS Peach Gardens (Final Lap)
-r_DS_Garden32_n|r_DS_Garden32_n - DS Peach Gardens
-r_DS_Jungle32_f|r_DS_Jungle32_f - DS Yoshi Falls (Final Lap)
-r_DS_Jungle32_n|r_DS_Jungle32_n - DS Yoshi Falls
-r_DS_Town32_f|r_DS_Town32_f - DS Delfino Square (Final Lap)
-r_DS_Town32_n|r_DS_Town32_n - DS Delfino Square
-r_GC_Battle32_F|r_GC_Battle32_F - GCN Cookie Land (Fast)
-r_GC_Battle32_n|r_GC_Battle32_n - GCN Cookie Land
-r_GC_Beach32_f|r_GC_Beach32_f - GCN Peach Beach (Final Lap)
-r_GC_Beach32_n|r_GC_Beach32_n - GCN Peach Beach
-r_GC_Circuit32_f|r_GC_Circuit32_f - GCN Mario Circuit (Final Lap)
-r_GC_Circuit32_n|r_GC_Circuit32_n - GCN Mario Circuit
-r_GC_Mountain32_f|r_GC_Mountain32_f - GCN DK Mountain (Final Lap)
-r_GC_Mountain32_n|r_GC_Mountain32_n - GCN DK Mountain
-r_GC_Stadium32_f|r_GC_Stadium32_f - GCN Waluigi Stadium (Final Lap)
-r_GC_Stadium32_n|r_GC_Stadium32_n - GCN Waluigi Stadium
-r_sfc_battle_F|r_sfc_battle_F - SNES Battle Course 4 (Fast)
-r_sfc_battle_n|r_sfc_battle_n - SNES Battle Course 4
-r_SFC_Circuit32_f|r_SFC_Circuit32_f - SNES Mario Circuit 3 (Final Lap)
-r_SFC_Circuit32_n|r_SFC_Circuit32_n - SNES Mario Circuit 3
-r_SFC_Obake32_f|r_SFC_Obake32_f - SNES Ghost Valley 2 (Final Lap)
-r_SFC_Obake32_n|r_SFC_Obake32_n - SNES Ghost Valley 2
-strm_me|strm_me - Unlock Fanfare
-STRM_N_DESERT_F|STRM_N_DESERT_F - Dry Dry Ruins (Final Lap)
-STRM_N_DESERT_N|STRM_N_DESERT_N - Dry Dry Ruins
-STRM_N_FACTORY_F|STRM_N_FACTORY_F - Toad's Factory (Final Lap)
-STRM_N_FACTORY_N|STRM_N_FACTORY_N - Toad's Factory
-STRM_N_KOOPA_F|STRM_N_KOOPA_F - Bowser's Castle (Final Lap)
-STRM_N_KOOPA_N|STRM_N_KOOPA_N - Bowser's Castle
-STRM_N_RIDGEHIGHWAY_F|STRM_N_RIDGEHIGHWAY_F - Moonview Highway (Final Lap)
-STRM_N_RIDGEHIGHWAY_N|STRM_N_RIDGEHIGHWAY_N - Moonview Highway
-STRM_N_TRUCK_F|STRM_N_TRUCK_F - Wario's Gold Mine (Final Lap)
-STRM_N_TRUCK_N|STRM_N_TRUCK_N - Wario's Gold Mine
-STRM_N_WATER_F|STRM_N_WATER_F - Koopa Cape (Final Lap)
-STRM_N_WATER_N|STRM_N_WATER_N - Koopa Cape
+n_block_F|n_block_F|Block Plaza (Fast)
+n_block_n|n_block_n|Block Plaza
+n_BossMI_32|n_BossMI_32|Boss (Competition/Tournament)
+n_casino_F|n_casino_F|Chain Chomp Wheel/Roulette (Fast)
+n_casino_n|n_casino_n|Chain Chomp Wheel/Roulette
+n_Circuit32_f|n_Circuit32_f|Mario/Luigi Circuit (Final Lap)
+n_Circuit32_n|n_Circuit32_n|Mario/Luigi Circuit
+n_Daisy32_f|n_Daisy32_f|Daisy Circuit (Final Lap)
+n_Daisy32_n|n_Daisy32_n|Daisy Circuit
+n_Farm_F|n_Farm_F|Moo Moo Meadows (Final Lap)
+n_Farm_n|n_Farm_n|Moo Moo Meadows
+n_Kinoko_F|n_Kinoko_F|Mushroom Gorge (Final Lap)
+n_Kinoko_n|n_Kinoko_n|Mushroom Gorge
+n_maple_F|n_maple_F|Maple Treeway (Final Lap)
+n_maple_n|n_maple_n|Maple Treeway
+n_Rainbow32_f|n_Rainbow32_f|Rainbow Road (Final Lap)
+n_Rainbow32_n|n_Rainbow32_n|Rainbow Road
+n_ryuusa_F|n_ryuusa_F|Thwomp Desert (Fast)
+n_ryuusa_n|n_ryuusa_n|Thwomp Desert
+n_Shopping32_f|n_Shopping32_f|Coconut Mall (Final Lap)
+n_Shopping32_n|n_Shopping32_n|Coconut Mall
+n_skate_F|n_skate_F|Funky Stadium (Fast)
+n_skate_n|n_skate_n|Funky Stadium
+n_Snowboard32_F|n_Snowboard32_F|DK Summit/DK's Snowboard Cross (Final Lap)
+n_Snowboard32_n|n_Snowboard32_n|DK Summit/DK's Snowboard Cross
+n_venice_F|n_venice_F|Delfino Pier (Fast)
+n_venice_n|n_venice_n|Delfino Pier
+n_Volcano32_f|n_Volcano32_f|Grumble Volcano (Final Lap)
+n_Volcano32_n|n_Volcano32_n|Grumble Volcano
+o_Crs_In_Fan|o_Crs_In_Fan|Course Intro (Grand Prix & VS)
+o_Crs_In_Fan_battle|o_Crs_In_Fan_battle|Course Intro (Battle)
+o_Crs_In_Fan_mission|o_Crs_In_Fan_mission|Course Intro (Boss)
+o_Crs_In_Fan_Wifi|o_Crs_In_Fan_Wifi|Course Intro (Wi-Fi)
+o_Ending_PartA_32|o_Ending_PartA_32|Ending (Part A)
+o_FanfareBTdraw_32|o_FanfareBTdraw_32|Battle Draw + Results
+o_FanfareGP1_32|o_FanfareGP1_32|1st Place Goal (Grand Prix & VS) + Results
+o_FanfareGP1_only32|o_FanfareGP1_only32|1st Place Goal (Grand Prix & VS)
+o_FanfareGP2_32|o_FanfareGP2_32|Top Goal (Grand Prix & VS) + Results
+o_FanfareGP2_only32|o_FanfareGP2_only32|Top Goal (Grand Prix & VS)
+o_FanfareGPdame_32|o_FanfareGPdame_32|Low Goal (Grand Prix & VS) + Results
+o_FanfareGPdame_only32|o_FanfareGPdame_only32|Low Goal (Grand Prix & VS)
+o_FanfareMIlose_32|o_FanfareMIlose_32|Lose (Competition/Tournament)/Team Fail (Battle)/Rank Out (Time Trial) + Results
+o_FanfareMIlose_only32|o_FanfareMIlose_only32|Lose (Competition/Tournament)/Team Fail (Battle)/Rank Out (Time Trial)
+o_FanfareMIwin_32|o_FanfareMIwin_32|Team Victory (Battle)/Ranking (Time Trial) + Results
+o_FanfareMIwin_only32|o_FanfareMIwin_only32|Team Victory (Battle)/Ranking (Time Trial)
+o_FanfareMIWinBoss_32|o_FanfareMIWinBoss_32|Victory (Boss)
+o_FanfareTA1st_32|o_FanfareTA1st_32|Victory (Competition/Tournament)/First Place in Team (Battle)/New Score (Time Trial) + Results
+o_FanfareTA1st_only32|o_FanfareTA1st_only32|First Place in Team (Battle)/New Score (Time Trial)
+o_hyousyou_cut|o_hyousyou_cut|Award Ceremony (Get Trophy|Short)
+o_hyousyou_lose|o_hyousyou_lose|No Trophy For You
+o_hyousyou_normal|o_hyousyou_normal|Award Ceremony (Get Trophy)
+o_hyousyou_winningrun|o_hyousyou_winningrun|Award Ceremony (Winning Run~Get Trophy)
+o_Option_32|o_Option_32|Options
+o_Start2_32_fan|o_Start2_32_fan|Race Start (Time Trial & Competition/Tournament)
+o_Start32_fan|o_Start32_fan|Race Start (Grand Prix & VS)
+o_Wi-Fi_waiting32|o_Wi-Fi_waiting32|Wi-Fi Match/Ghost Replay
+r_64_battle_F|r_64_battle_F|N64 Skyscraper (Fast)
+r_64_battle_n|r_64_battle_n|N64 Skyscraper
+r_64_Circuit32_f|r_64_Circuit32_f|N64 Mario Raceway (Final Lap)
+r_64_circuit32_n|r_64_circuit32_n|N64 Mario Raceway
+r_64_Jungle32_f|r_64_Jungle32_f|N64 DK's Jungle Parkway (Final Lap)
+r_64_Jungle32_n|r_64_Jungle32_n|N64 DK's Jungle Parkway
+r_64_Kuppa32_f|r_64_Kuppa32_f|N64 Bowser's Castle (Final Lap)
+r_64_Kuppa32_n|r_64_Kuppa32_n|N64 Bowser's Castle
+r_64_Sherbet32_f|r_64_Sherbet32_f|N64 Sherbet Land (Final Lap)
+r_64_Sherbet32_n|r_64_Sherbet32_n|N64 Sherbet Land
+r_agb_battle_F|r_agb_battle_F|GBA Battle Course 3 (Fast)
+r_agb_battle_n|r_agb_battle_n|GBA Battle Course 3
+r_AGB_Beach32_f|r_AGB_Beach32_f|GBA Shy Guy Beach (Final Lap)
+r_AGB_Beach32_n|r_AGB_Beach32_n|GBA Shy Guy Beach
+r_AGB_Kuppa32_f|r_AGB_Kuppa32_f|GBA Bowser Castle 3 (Final Lap)
+r_AGB_Kuppa32_n|r_AGB_Kuppa32_n|GBA Bowser Castle 3
+r_ds_battle_F|r_ds_battle_F|DS Twilight House (Fast)
+r_ds_battle_n|r_ds_battle_n|DS Twilight House
+r_DS_Desert32_f|r_DS_Desert32_f|DS Desert Hills (Final Lap)
+r_DS_Desert32_n|r_DS_Desert32_n|DS Desert Hills
+r_DS_Garden32_f|r_DS_Garden32_f|DS Peach Gardens (Final Lap)
+r_DS_Garden32_n|r_DS_Garden32_n|DS Peach Gardens
+r_DS_Jungle32_f|r_DS_Jungle32_f|DS Yoshi Falls (Final Lap)
+r_DS_Jungle32_n|r_DS_Jungle32_n|DS Yoshi Falls
+r_DS_Town32_f|r_DS_Town32_f|DS Delfino Square (Final Lap)
+r_DS_Town32_n|r_DS_Town32_n|DS Delfino Square
+r_GC_Battle32_F|r_GC_Battle32_F|GCN Cookie Land (Fast)
+r_GC_Battle32_n|r_GC_Battle32_n|GCN Cookie Land
+r_GC_Beach32_f|r_GC_Beach32_f|GCN Peach Beach (Final Lap)
+r_GC_Beach32_n|r_GC_Beach32_n|GCN Peach Beach
+r_GC_Circuit32_f|r_GC_Circuit32_f|GCN Mario Circuit (Final Lap)
+r_GC_Circuit32_n|r_GC_Circuit32_n|GCN Mario Circuit
+r_GC_Mountain32_f|r_GC_Mountain32_f|GCN DK Mountain (Final Lap)
+r_GC_Mountain32_n|r_GC_Mountain32_n|GCN DK Mountain
+r_GC_Stadium32_f|r_GC_Stadium32_f|GCN Waluigi Stadium (Final Lap)
+r_GC_Stadium32_n|r_GC_Stadium32_n|GCN Waluigi Stadium
+r_sfc_battle_F|r_sfc_battle_F|SNES Battle Course 4 (Fast)
+r_sfc_battle_n|r_sfc_battle_n|SNES Battle Course 4
+r_SFC_Circuit32_f|r_SFC_Circuit32_f|SNES Mario Circuit 3 (Final Lap)
+r_SFC_Circuit32_n|r_SFC_Circuit32_n|SNES Mario Circuit 3
+r_SFC_Obake32_f|r_SFC_Obake32_f|SNES Ghost Valley 2 (Final Lap)
+r_SFC_Obake32_n|r_SFC_Obake32_n|SNES Ghost Valley 2
+strm_me|strm_me|Unlock Fanfare
+STRM_N_DESERT_F|STRM_N_DESERT_F|Dry Dry Ruins (Final Lap)
+STRM_N_DESERT_N|STRM_N_DESERT_N|Dry Dry Ruins
+STRM_N_FACTORY_F|STRM_N_FACTORY_F|Toad's Factory (Final Lap)
+STRM_N_FACTORY_N|STRM_N_FACTORY_N|Toad's Factory
+STRM_N_KOOPA_F|STRM_N_KOOPA_F|Bowser's Castle (Final Lap)
+STRM_N_KOOPA_N|STRM_N_KOOPA_N|Bowser's Castle
+STRM_N_RIDGEHIGHWAY_F|STRM_N_RIDGEHIGHWAY_F|Moonview Highway (Final Lap)
+STRM_N_RIDGEHIGHWAY_N|STRM_N_RIDGEHIGHWAY_N|Moonview Highway
+STRM_N_TRUCK_F|STRM_N_TRUCK_F|Wario's Gold Mine (Final Lap)
+STRM_N_TRUCK_N|STRM_N_TRUCK_N|Wario's Gold Mine
+STRM_N_WATER_F|STRM_N_WATER_F|Koopa Cape (Final Lap)
+STRM_N_WATER_N|STRM_N_WATER_N|Koopa Cape

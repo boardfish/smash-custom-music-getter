@@ -2,6 +2,7 @@
 require 'open-uri'
 require 'csv'
 require 'fileutils'
+require 'sqlite3'
 $formats = { "brstm": ["Super Smash Bros. Brawl"], "bcstm": ["Tales of the Abyss", "Mario Kart 7", "Fire Emblem Awakening"], "nus3bank": ["Super Smash Bros. for 3DS", "Super Smash Bros. for Wii U"], "hps":["Super Smash Bros. Melee", "Kirby Air Ride"], "mp3": ["mp3 previews shown on smashcustommusic"]}
 
 def choose(formats)
@@ -32,21 +33,71 @@ def choose(formats)
 end
 #choose a filetype/game.
 
-#CLEAN CSV GENERATOR
-def generate_csv
-  print("Reading songlist.txt...")
+#CLEAN CSV GENERATOR/DATABASE GENERATOR?
+def generate(file)
   begin
-    CSV.open("songlist.csv", "wb") do |csv|
-      File.open("songlist.txt", "r").each do |line|
-        filename = line.split("|")[0]
-        songname = line.split("|")[1]
-        csv << [filename, songname, 0]
+      @db.results_as_hash = true
+      gamelist = @db.execute %{SELECT * FROM game}
+  rescue SQLite3::SQLException => e
+      puts "Table does not exist"
+      puts e
+  end
+  gamelist.each do |game|
+    print game["GameID"], ": ", game["Title"], "\n"
+  end
+  input = -1
+  chosenSonglist = ""
+  loop do
+    # begin
+      input = gets.chomp.to_i
+      chosenSonglist = @db.execute %{SELECT * FROM game WHERE GameID = ?}, input
+      chosenSonglist = chosenSonglist[0]
+    # rescue
+      # puts "That's not valid. Try again."
+    # else
+      break
+    # end
+  end
+  puts chosenSonglist["Title"]
+  inputtxtfile = "songlists/" + chosenSonglist["Title"].gsub(/[.,\/#!$%\^&\*;:{}=\-_`~()]/,"").gsub(/\s+/, '')
+  inputtxtfile = inputtxtfile+".txt"
+  case file
+  when "csv"
+    begin
+      CSV.open("songlist.csv", "wb") do |csv|
+        File.open("#{inputtxtfile}", "r").each do |line|
+          filename = line.split("|")[0]
+          songname = line.split("|")[1]
+          csv << [filename, songname, 0] #INSERT INTO songlist (InGameFileName, Title)
+        end
       end
+    rescue
+      puts "An error occurred. You've either deleted songlist.txt (don't touch that!) or done something with songlist.csv..."
+    else
+      puts "done! You now have an empty song list at songlist.csv."
     end
-  rescue
-    puts "An error occurred. You've either deleted songlist.txt (don't touch that!) or done something with songlist.csv..."
-  else
-    puts "done! You now have an empty song list at songlist.csv."
+  when "sqlite"
+    begin
+      gameID = @db.execute %{ SELECT GameID FROM game WHERE title = "#{chosenSonglist["Title"]}" }
+      gameID = gameID[0]["GameID"].to_i
+      File.open("#{inputtxtfile}", "r").each do |line|
+        puts
+        print line
+        filename = line.split("|")[0].chomp
+        shortname = line.split("|")[1].chomp
+        if filename != "BrawlStage"
+          songname = line.split("|")[2].chomp
+          puts "INSERT INTO songlist (InGameFileName, Title, ShortFileName, GameID) VALUES (?,?,?,?)", filename,songname,shortname,gameID
+          @db.execute "INSERT INTO songlist (InGameFileName, Title, ShortFileName, GameID) VALUES (?,?,?,?)", filename,songname,shortname,gameID
+        end
+      end
+      puts "done! You now have a database at songlist.sqlite."
+    rescue SQLite3::Exception => e
+      puts "An error occurred."
+      puts e
+    ensure
+      @db.close if @db
+    end
   end
 end
 
@@ -157,7 +208,7 @@ def menu
   input = gets.chomp
   case input
   when "generate"
-    generate_csv
+    generate("csv")
   when "download"
     $fileformat = choose($formats)
     directory = set_directory("output", $fileformat)
@@ -183,4 +234,10 @@ def menu
   menu
 end
 
-menu
+#menu
+begin
+  @db = SQLite3::Database.open "songlists.sqlite"
+  generate("sqlite")
+ensure
+  @db.close
+end

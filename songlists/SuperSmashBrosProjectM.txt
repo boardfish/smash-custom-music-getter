@@ -1,52 +1,29 @@
-BrawlStage|Battlefield
-X04|X04|Battlefield
-T02|T02|Menu (Super Smash Bros. Melee)
-X25|X25|Battlefield Ver. 2
-W21|W21|Battlefield (Melee)
-W23|W23|Multi-Man Melee 1 (Melee)
-BrawlStage|Final Destination
+BrawlStage|Final Destination (Melee)
 X05|X05|Final Destination
 T01|T01|Credits (Super Smash Bros.)
 T03|T03|Opening (Super Smash Bros. Melee)
 W25|W25|Final Destination (Melee)
 W31|W31|Giga Bowser (Melee)
-BrawlStage|Delfino Plaza
-A13|A13|Delfino Plaza
-A07|A07|Title / Ending (Super Mario World)
-A08|A08|Main Theme (New Super Mario Bros.)
-A14|A14|Ricco Harbor
-A15|A15|Main Theme (Super Mario 64)
-BrawlStage|Luigi's Mansion
+BrawlStage|Metal Cavern
+A01|A01|Ground Theme (Super Mario Bros.)
+A16|A16|Ground Theme 2 (Super Mario Bros.)
+A10|A10|Gritzy Desert
+A02|A02|Underground Theme (Super Mario Bros.)
+A03|A03|Underwater Theme (Super Mario Bros.)
+A04|A04|Underground Theme (Super Mario Land)
+BrawlStage|Dracula's Castle
 A09|A09|Luigi's Mansion Theme
 A06|A06|Castle / Boss Fortress (Super Mario World / SMB3)
 A05|A05|Airship Theme (Super Mario Bros. 3)
 Q10|Q10|Tetris: Type A
 Q11|Q11|Tetris: Type B
-BrawlStage|Mushroomy Kingdom 1-1
-A01|A01|Ground Theme (Super Mario Bros.)
-A16|A16|Ground Theme 2 (Super Mario Bros.)
-A10|A10|Gritzy Desert
-BrawlStage|Mushroomy Kingdom 1-2
-A02|A02|Underground Theme (Super Mario Bros.)
-A03|A03|Underwater Theme (Super Mario Bros.)
-A04|A04|Underground Theme (Super Mario Land)
-BrawlStage|Mario Circuit
+BrawlStage|Princess Peach's Castle (Melee)
 A20|A20|Mario Circuit
 A21|A21|Luigi Circuit
 A22|A22|Waluigi Pinball
 A23|A23|Rainbow Road
 R05|R05|Mario Tennis/Mario Golf
-R14|R14|Excite Truck
-Q09|Q09|Title (3D Hot Rally)
-BrawlStage|Rumble Falls
-B01|B01|Jungle Level Ver.2
-B08|B08|Jungle Level
-B05|B05|King K. Rool / Ship Deck 2
-B06|B06|Bramble Blast
-B07|B07|Battle for Storm Hill
-B10|B10|DK Jungle 1 Theme (Barrel Blast)
-B02|B02|The Map Page / Bonus Level
-BrawlStage|Bridge of Eldin
+BrawlStage|Hyrule Castle
 C02|C02|Main Theme (The Legend of Zelda)
 C09|C09|Ocarina of Time Medley
 C01|C01|Title (The Legend of Zelda)
@@ -56,6 +33,69 @@ C08|C08|Hyrule Field Theme
 C17|C17|Main Theme (Twilight Princess)
 C18|C18|The Hidden Village
 C19|C19|Midna's Lament
+BrawlStage|Saffron City
+H06|H06|Victory Road
+H08|H08|Dialga / Palkia Battle at Spear Pillar!
+H07|H07|Wild Pokemon Battle! (Diamond / Pearl)
+H09|H09|Team Galactic Battle!
+H10|H10|Route 209
+BrawlStage|Distant Planet M
+L06|L06|Main Theme (Pikmin)
+L01|L01|World Map (Pikmin 2)
+L07|L07|Stage Clear / Title (Pikmin)
+L02|L02|Forest of Hope
+L04|L04|Ai no Uta
+L08|L08|Ai no Uta (French Version)
+L05|L05|Tane no Uta
+L03|L03|Environmental Noises
+R08|R08|Title (Big Brain Academy)
+BrawlStage|Fourside
+K07|K07|Porky's Theme
+K09|K09|Unfounded Revenge / Smashing Song of Praise
+K08|K08|Mother 3 Love Theme
+K10|K10|You Call This a Utopia?!
+K05|K05|Humoresque of a Little Dog
+K01|K01|Snowman
+BrawlStage|Kongo Jungle
+B04|B04|Donkey Kong
+B03|B03|Opening (Donkey Kong)
+B09|B09|25m BGM
+BrawlStage|Fountain of Dreams
+A17|A17|Mario Bros.
+Q02|Q02|Gyromite
+Q01|Q01|Famicom Medley
+Q13|Q13|Power-Up Music
+Q14|Q14|Douchuumen (Nazo no Murasamejo)
+BrawlStage|Skyloft
+R03|R03|Hanenbow Ambience
+BrawlStage|Yoshi's Story
+W05|W05|Yoshi's Island (Melee)
+W15|W15|Super Mario Bros. 3 (Melee)
+BrawlStage|Dreamland
+W07|W07|Green Greens (Melee)
+W06|W06|Fountain of Dreams (Melee)
+BrawlStage|Training Room
+X07|X07|Online Practice Stage
+BrawlStage|Battlefield
+X04|X04|Battlefield
+T02|T02|Menu (Super Smash Bros. Melee)
+X25|X25|Battlefield Ver. 2
+W21|W21|Battlefield (Melee)
+W23|W23|Multi-Man Melee 1 (Melee)
+BrawlStage|Delfino Plaza
+A13|A13|Delfino Plaza
+A07|A07|Title / Ending (Super Mario World)
+A08|A08|Main Theme (New Super Mario Bros.)
+A14|A14|Ricco Harbor
+A15|A15|Main Theme (Super Mario 64)
+BrawlStage|Rumble Falls
+B01|B01|Jungle Level Ver.2
+B08|B08|Jungle Level
+B05|B05|King K. Rool / Ship Deck 2
+B06|B06|Bramble Blast
+B07|B07|Battle for Storm Hill
+B10|B10|DK Jungle 1 Theme (Barrel Blast)
+B02|B02|The Map Page / Bonus Level
 BrawlStage|Pirate Ship
 C15|C15|Dragon Roost Island
 C16|C16|The Great Sea
@@ -117,12 +157,6 @@ H03|H03|Road to Viridian City (From Pallet Town / Pewter City)
 H02|H02|Pokemon Center
 H04|H04|Pokemon Gym / Evolution
 H05|H05|Wild Pokemon Battle! (Ruby / Sapphire)
-BrawlStage|Spear Pillar
-H06|H06|Victory Road
-H08|H08|Dialga / Palkia Battle at Spear Pillar!
-H07|H07|Wild Pokemon Battle! (Diamond / Pearl)
-H09|H09|Team Galactic Battle!
-H10|H10|Route 209
 BrawlStage|Port Town: Aero Dive
 I01|I01|Mute City
 I03|I03|Fire Field
@@ -167,16 +201,6 @@ M15|M15|MicroGame$ Theme 06
 M16|M16|MicroGame$ Theme 07
 M17|M17|MicroGame$ Theme 08
 M18|M18|MicroGame$ Theme 09
-BrawlStage|Distant Planet
-L06|L06|Main Theme (Pikmin)
-L01|L01|World Map (Pikmin 2)
-L07|L07|Stage Clear / Title (Pikmin)
-L02|L02|Forest of Hope
-L04|L04|Ai no Uta
-L08|L08|Ai no Uta (French Version)
-L05|L05|Tane no Uta
-L03|L03|Environmental Noises
-R08|R08|Title (Big Brain Academy)
 BrawlStage|Smashville
 N01|N01|Title (Animal Crossing)
 N02|N02|Go K.K. Rider!
@@ -189,13 +213,6 @@ N09|N09|K.K. Gumbo
 N10|N10|Rockin' K.K
 N11|N11|DJ K.K
 N12|N12|Condor
-BrawlStage|New Pork City
-K07|K07|Porky's Theme
-K09|K09|Unfounded Revenge / Smashing Song of Praise
-K08|K08|Mother 3 Love Theme
-K10|K10|You Call This a Utopia?!
-K05|K05|Humoresque of a Little Dog
-K01|K01|Snowman
 BrawlStage|Summit
 Q07|Q07|Ice Climber
 Q06|Q06|Balloon Trip
@@ -207,16 +224,6 @@ P01|P01|Underworld
 P03|P03|Skyworld
 P02|P02|Title (Kid Icarus)
 P04|P04|Kid Icarus Original Medley
-BrawlStage|75m
-B04|B04|Donkey Kong
-B03|B03|Opening (Donkey Kong)
-B09|B09|25m BGM
-BrawlStage|Mario Bros.
-A17|A17|Mario Bros.
-Q02|Q02|Gyromite
-Q01|Q01|Famicom Medley
-Q13|Q13|Power-Up Music
-Q14|Q14|Douchuumen (Nazo no Murasamejo)
 BrawlStage|Flat Zone 2
 R04|R04|Flat Zone 2
 Q04|Q04|Chill (Dr. Mario)
@@ -231,8 +238,6 @@ R17|R17|Charge! (Wii Play)
 R13|R13|Shaberu! DS Cooking Navi
 R06|R06|Lip's Theme (Panel de Pon)
 W20|W20|Dr. Mario (Melee)
-BrawlStage|Hanenbow
-R03|R03|Hanenbow Ambience
 BrawlStage|Shadow Moses Island
 S06|S06|MGS4 ~Theme of Love~ Smash Bros. Brawl Version
 S02|S02|Encounter
@@ -259,9 +264,6 @@ U13|U13|Seven Rings In Hand
 BrawlStage|Temple
 C03|C03|Great Temple / Temple
 W24|W24|Temple (Melee)
-BrawlStage|Yoshi's Island (Melee)
-W05|W05|Yoshi's Island (Melee)
-W15|W15|Super Mario Bros. 3 (Melee)
 BrawlStage|Jungle Japes
 W03|W03|Jungle Japes (Melee)
 W26|W26|Kongo Jungle (Melee)
@@ -292,8 +294,6 @@ X02|X02|Menu 1
 X03|X03|Menu 2
 W30|W30|Menu (Melee)
 X01|X01|Super Smash Bros. Brawl Main Theme
-BrawlStage|Use Brawl w/codes template for this custom character/stage select theme
-2FFF|2FFF|Character/Stage Select Screen
 BrawlStage|Subspace Emissary
 Y01|Y01|Adventure Map
 Y02|Y02|Step: The Plain
@@ -318,7 +318,7 @@ Z04|Z04|Metroid Series
 Z05|Z05|Yoshi
 Z06|Z06|Kirby Series
 Z07|Z07|Star Fox Series
-Z08|Z08|Unknown
+Z08|Z08|Untitled
 Z10|Z10|Captain Falcon
 Z11|Z11|Mother Series
 Z16|Z16|Ice Climbers
@@ -331,55 +331,7 @@ Z25|Z25|Olimar
 Z35|Z35|R.O.B.
 Z46|Z46|Solid Snake
 Z47|Z47|Sonic The Hedgehog
-BrawlStage|Use Brawl w/ codes template for these custom victory themes
-3000|3000|Mario
-3001|3001|Donkey Kong
-3002|3002|Link
-3003|3003|Samus
-3004|3004|Zero Suit Samus
-3005|3005|Yoshi
-3006|3006|Kirby
-3007|3007|Fox
-3008|3008|Pikachu
-3009|3009|Luigi
-300A|300A|Captain Falcon
-300B|300B|Ness
-300C|300C|Bowser
-300D|300D|Peach
-300E|300E|Zelda
-300F|300F|Sheik
-3010|3010|Ice Climbers
-3011|3011|Popo
-3012|3012|Nana
-3013|3013|Marth
-3014|3014|Mr. Game &amp; Watch
-3015|3015|Falco
-3016|3016|Ganon
-3017|3017|Wario
-3018|3018|Meta Knight
-3019|3019|Pit
-301A|301A|Olimar
-301B|301B|Lucas
-301C|301C|Diddy Kong
-301D|301D|Charizard w/Trainer
-301E|301E|Charizard
-301F|301F|Ivysaur w/Trainer
-3020|3020|Ivysaur
-3021|3021|Squirtle w/Trainer
-3022|3022|Squirtle
-3023|3023|King Dedede
-3024|3024|Lucario
-3025|3025|Ike
-3026|3026|R.O.B.
-3027|3027|Jigglypuff
-3028|3028|Toon Link
-3029|3029|Wolf
-302A|302A|Snake
-302B|302B|Sonic
-302C|302C|Giga Bowser
-302D|302D|Warioman
 BrawlStage|Other
-X07|X07|Online Practice Stage
 X08|X08|Results Display Screen
 X09|X09|Tournament Registration
 X10|X10|Tournament Grid

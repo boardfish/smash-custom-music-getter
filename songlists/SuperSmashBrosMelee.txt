@@ -1,95 +1,95 @@
-1p_qk|1p_qk - All-Star Rest Area
-akaneia|akaneia - Fire Emblem
-baloon|baloon - Balloon Fight
-bigblue|bigblue - Big Blue
-castle|castle - Peach's Castle
-continue|continue - Continue?
-corneria|corneria - Corneria
-docmari|docmari - Dr. Mario
-ending|ending - Single Player Ending
-ff_1p01|ff_1p01 - Classic Stage Clear
-ff_1p02|ff_1p02 - Adventure Stage Clear
-ff_bad|ff_bad - Untitled
-ff_dk|ff_dk - Donkey Kong Victory
-ff_emb|ff_emb - Fire Emblem Victory
-ff_flat|ff_flat - Game & Watch Victory
-ff_fox|ff_fox - Star Fox Victory
-ff_fzero|ff_fzero - Captain Falcon Victory
-ff_good|ff_good - Untitled
-ff_ice|ff_ice - Ice Climbers Victory
-ff_kirby|ff_kirby - Kirby Victory
-ff_link|ff_link - Zelda Team Victory
-ff_mario|ff_mario - Mario Team Victory
-ff_nes|ff_nes - Ness Victory
-ff_poke|ff_samus|ff_samus - Samus Victory
-ff_step1|ff_step1 - Untitled
-ff_step2|ff_step2 - Untitled
-ff_step3|ff_step3 - Untitled
-ff_yoshi|ff_yoshi - Yoshi Victory
-flatzone|flatzone - Flat Zone
-fourside|fourside - Fourside
-gameover|gameover - Game Over
-garden|garden - Kongo Jungle (DK Rap)
-greatbay|greatbay - Great Bay
-greens|greens - Green Greens
-howto|howto - How to Play (Movie)
-howto_s|howto_s - How to Play
-hyaku|hyaku - Multi Man Melee
-hyaku2|hyaku2 - Multi Man Melee 2
-icemt|icemt - Icicle Mountain
-inis1_01|inis1_01 - Mushroom Kingdom
-inis1_02|inis1_02 - Mushroom Kingdom (Fast)
-inis2_01|inis2_01 - Mushroom Kingdom 2
-inis2_02|inis2_02 - Mushroom Kingdom 2 (Fast)
-intro_es|intro_es - Classic Stage Intro
-intro_nm|intro_nm - Adventure Stage Intro
-item_h|item_h - Hammer
-item_s|item_s - Starman
-izumi|izumi - Fountain of Dreams
-kongo|kongo - Jungle Japes
-kraid|kraid - Brinstar Depths
-menu01|menu01 - Menu
-menu02|menu02 - Trophy Tussle / Lottery
-menu3|menu3 - Menu 2
-mrider|mrider - Mach Rider
-mutecity|mutecity - Mute City
-old_dk|old_dk - Kongo Jungle 64
-old_kb|old_kb - Yoshi's Island 64
-old_ys|old_ys - Dreamland 64
-onetto|onetto - Onett
-onetto2|onetto2 - Pollyanna (I Believe in You)
-opening|opening - Opening Movie
-pokesta|pokesta - Battle Medley (Gold/Silver/Crystal)
-pstadium|pstadium - Untitled
-pura|pura - Untitled
-rcruise|rcruise - Rainbow Cruise
-s_info1|s_info1 - Untitled
-s_info2|s_info2 - Untitled
-s_info3|s_info3 - Untitled
-s_new1|s_new1 - Untitled
-s_new2|s_new2 - Untitled
-s_newcom|s_newcom -
-s_select|s_select -
-saria|saria - Saria's Song
-shrine|shrine - Temple
-siren|siren - Escape (Adventure Mode: Metroid)
-smari3|smari3 - Super Mario Bros. 3
-sp_end|sp_end - Final Destination
-sp_giga|sp_giga - Giga Bowser
-sp_metal|sp_metal - Metal Battle
-sp_zako|sp_zako - Battlefield
-target|target - Target Test
-venom|venom - Venom
-vl_battle|vl_battle - Untitled
-vl_castle|vl_castle - Untitled
-vl_corneria|vl_corneria - Untitled
-vl_cosmos|vl_cosmos - Untitled
-vl_figure1|vl_figure1 - Untitled
-vl_figure2|vl_figure2 - Untitled
-vl_fzero|vl_fzero - Untitled
-vl_last_v2|vl_last_v2 - Untitled
-vs_hyou1|vs_hyou1 - Tournament Grid
-vs_hyou2|vs_hyou2 - Tournament Grid (Alternate)
-yorster|yorster - Yoshi's Island
-ystory|ystory - Yoshi's Story
-zebes|zebes - Brinstar
+1p_qk|1p_qk|All-Star Rest Area
+akaneia|akaneia|Fire Emblem
+baloon|baloon|Balloon Fight
+bigblue|bigblue|Big Blue
+castle|castle|Peach's Castle
+continue|continue|Continue?
+corneria|corneria|Corneria
+docmari|docmari|Dr. Mario
+ending|ending|Single Player Ending
+ff_1p01|ff_1p01|Classic Stage Clear
+ff_1p02|ff_1p02|Adventure Stage Clear
+ff_bad|ff_bad|Untitled
+ff_dk|ff_dk|Donkey Kong Victory
+ff_emb|ff_emb|Fire Emblem Victory
+ff_flat|ff_flat|Game & Watch Victory
+ff_fox|ff_fox|Star Fox Victory
+ff_fzero|ff_fzero|Captain Falcon Victory
+ff_good|ff_good|Untitled
+ff_ice|ff_ice|Ice Climbers Victory
+ff_kirby|ff_kirby|Kirby Victory
+ff_link|ff_link|Zelda Team Victory
+ff_mario|ff_mario|Mario Team Victory
+ff_nes|ff_nes|Ness Victory
+ff_poke|ff_samus|ff_samus|Samus Victory
+ff_step1|ff_step1|Untitled
+ff_step2|ff_step2|Untitled
+ff_step3|ff_step3|Untitled
+ff_yoshi|ff_yoshi|Yoshi Victory
+flatzone|flatzone|Flat Zone
+fourside|fourside|Fourside
+gameover|gameover|Game Over
+garden|garden|Kongo Jungle (DK Rap)
+greatbay|greatbay|Great Bay
+greens|greens|Green Greens
+howto|howto|How to Play (Movie)
+howto_s|howto_s|How to Play
+hyaku|hyaku|Multi Man Melee
+hyaku2|hyaku2|Multi Man Melee 2
+icemt|icemt|Icicle Mountain
+inis1_01|inis1_01|Mushroom Kingdom
+inis1_02|inis1_02|Mushroom Kingdom (Fast)
+inis2_01|inis2_01|Mushroom Kingdom 2
+inis2_02|inis2_02|Mushroom Kingdom 2 (Fast)
+intro_es|intro_es|Classic Stage Intro
+intro_nm|intro_nm|Adventure Stage Intro
+item_h|item_h|Hammer
+item_s|item_s|Starman
+izumi|izumi|Fountain of Dreams
+kongo|kongo|Jungle Japes
+kraid|kraid|Brinstar Depths
+menu01|menu01|Menu
+menu02|menu02|Trophy Tussle / Lottery
+menu3|menu3|Menu 2
+mrider|mrider|Mach Rider
+mutecity|mutecity|Mute City
+old_dk|old_dk|Kongo Jungle 64
+old_kb|old_kb|Yoshi's Island 64
+old_ys|old_ys|Dreamland 64
+onetto|onetto|Onett
+onetto2|onetto2|Pollyanna (I Believe in You)
+opening|opening|Opening Movie
+pokesta|pokesta|Battle Medley (Gold/Silver/Crystal)
+pstadium|pstadium|Untitled
+pura|pura|Untitled
+rcruise|rcruise|Rainbow Cruise
+s_info1|s_info1|Untitled
+s_info2|s_info2|Untitled
+s_info3|s_info3|Untitled
+s_new1|s_new1|Untitled
+s_new2|s_new2|Untitled
+s_newcom|s_newcom|Untitled
+s_select|s_select|Untitled
+saria|saria|Saria's Song
+shrine|shrine|Temple
+siren|siren|Escape (Adventure Mode: Metroid)
+smari3|smari3|Super Mario Bros. 3
+sp_end|sp_end|Final Destination
+sp_giga|sp_giga|Giga Bowser
+sp_metal|sp_metal|Metal Battle
+sp_zako|sp_zako|Battlefield
+target|target|Target Test
+venom|venom|Venom
+vl_battle|vl_battle|Untitled
+vl_castle|vl_castle|Untitled
+vl_corneria|vl_corneria|Untitled
+vl_cosmos|vl_cosmos|Untitled
+vl_figure1|vl_figure1|Untitled
+vl_figure2|vl_figure2|Untitled
+vl_fzero|vl_fzero|Untitled
+vl_last_v2|vl_last_v2|Untitled
+vs_hyou1|vs_hyou1|Tournament Grid
+vs_hyou2|vs_hyou2|Tournament Grid (Alternate)
+yorster|yorster|Yoshi's Island
+ystory|ystory|Yoshi's Story
+zebes|zebes|Brinstar
