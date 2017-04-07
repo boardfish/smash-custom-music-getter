@@ -67,12 +67,12 @@ def generate(file)
       CSV.open("songlist.csv", "wb") do |csv|
         File.open("#{inputtxtfile}", "r").each do |line|
           filename = line.split("|")[0]
-          songname = line.split("|")[1]
+          songname = line.split("|")[2]
           csv << [filename, songname, 0] #INSERT INTO songlist (InGameFileName, Title)
         end
       end
     rescue
-      puts "An error occurred. You've either deleted songlist.txt (don't touch that!) or done something with songlist.csv..."
+      puts "An error occurred. You've either deleted songlist.txt (don't touch that!) or done something with ..."
     else
       puts "done! You now have an empty song list at songlist.csv."
     end
@@ -118,12 +118,10 @@ def download_song(songID, fileformat, filename, directory)
         file.write(uri.read)
       end
     rescue
-      print "not replaced, error in download."
       File.delete(directory+"#{filename}.#{fileformat}")
       return set_directory("output", fileformat)
       next
     else
-      puts "done!"
       return true
     end
   end
@@ -139,28 +137,45 @@ def get_song_title(songID)
     end
 end
 
+def verify(row)
+  if row[2].chomp.to_i == 0
+    if row[0].chomp == "BrawlStage"
+      print "STAGE"
+      if !row[1].nil?
+        print ": ", row[1].chomp
+      end
+      puts
+    end
+    return false
+  else
+    (0..3).each do |i|
+      print row[i].chomp if !row[i].nil?
+      if i%2==0
+        print " - "
+      else
+        if i!=3
+          print " | "
+        end
+      end
+    end
+    puts
+    return true
+  end
+  return false
+end
+
 def parse_csv(originaltitles)
   begin
     CSV.foreach("songlist1.csv") do |row|
-      songID = row[2].strip
-      if songID.to_i == 0
-        next
+      if verify(row)
+        songID = row[2].chomp.to_i
+        filename = row[0].chomp
+        download_song(songID, $fileformat, filename, "output/#{$fileformat}")
       end
-      print "#{row[1].chomp} - "
-      filename = row[0].strip
-      if filename.eql? "" or filename.eql? "BrawlStage"
-        next
-      end
-      if originaltitles
-        filename = get_song_title(songID)
-      end
-      puts filename
-      print("Downloading...")
-      download_song(songID, $fileformat, filename, "output/#{$fileformat}")
-      puts("Done!")
     end
-  rescue
+  rescue => e
     puts "An error occurred. Have you renamed songlist.csv to songlist1.csv?"
+    puts e
   else
     puts "All done! Check the output folder."
   end
@@ -234,10 +249,13 @@ def menu
   menu
 end
 
-#menu
 begin
   @db = SQLite3::Database.open "songlists.sqlite"
-  generate("sqlite")
+  #generate("sqlite")
+  menu
 ensure
   @db.close
 end
+# CSV.foreach("songlist1.csv") do |row|
+#   verify(row)
+# end
