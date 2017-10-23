@@ -7,24 +7,25 @@ require 'sqlite3'
 def choose
   begin
       @db.results_as_hash = true
-      gamelist = @db.execute %{SELECT * FROM game}
+      filetypes = @db.execute %{SELECT * FROM filetype}
   rescue SQLite3::SQLException => e
       puts "Table does not exist"
       puts e
   end
-  gamelist.each do |game|
-    print game["GameID"], ": ", game["Filetype"]
+  filetypes.each do |filetype|
+    print filetype["FiletypeID"], ": ", filetype["Extension"]
     puts
   end
   selection = 0
   isFiletype = false
   while !isFiletype
     fileformat = gets.chomp.to_i
-    games = @db.execute("SELECT Filetype FROM game WHERE GameID = ?", fileformat)
-    if games.length>0
+    result = @db.execute("SELECT Extension FROM filetype WHERE FiletypeID = ?", fileformat)
+    if result.length>0
       puts "Matched!"
       isFiletype = true
-      return games[0]["Filetype"]
+      print "result:", result
+      return result[0]["Extension"]
     end
     print "All checked. Please try again: "
   end
