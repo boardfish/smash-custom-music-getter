@@ -3,31 +3,30 @@ require 'open-uri'
 require 'csv'
 require 'fileutils'
 require 'sqlite3'
-$formats = { "brstm": ["Super Smash Bros. Brawl"], "bcstm": ["Tales of the Abyss", "Mario Kart 7", "Fire Emblem Awakening"], "nus3bank": ["Super Smash Bros. for 3DS", "Super Smash Bros. for Wii U"], "hps":["Super Smash Bros. Melee", "Kirby Air Ride"], "mp3": ["mp3 previews shown on smashcustommusic"]}
 
-def choose(formats)
-  formats.each do |filetype, gamelist|
-    print "#{filetype}:"
-    puts
-    gamelist.each do |gameInFiletype|
-      print "#{gameInFiletype}, "
-    end
+def choose
+  begin
+      @db.results_as_hash = true
+      gamelist = @db.execute %{SELECT * FROM game}
+  rescue SQLite3::SQLException => e
+      puts "Table does not exist"
+      puts e
+  end
+  gamelist.each do |game|
+    print game["GameID"], ": ", game["Filetype"]
     puts
   end
-  fileformat = ""
-  loop do
-    isFiletype = false
-    fileformat = gets.chomp
-    formats.each do |filetype, gamelist|
-      if fileformat == filetype.to_s
-        puts "Matched!"
-        isFiletype = true
-        return fileformat
-      end
+  selection = 0
+  isFiletype = false
+  while !isFiletype
+    fileformat = gets.chomp.to_i
+    games = @db.execute("SELECT Filetype FROM game WHERE GameID = ?", fileformat)
+    if games.length>0
+      puts "Matched!"
+      isFiletype = true
+      return games[0]["Filetype"]
     end
-    puts
-    print "All checked. Please try again"
-    print ": "
+    print "All checked. Please try again: "
   end
   parse_csv
 end
@@ -103,6 +102,7 @@ end
 
 def download_song(songID, fileformat, filename, directory)
   outputpath = directory+"/#{filename}.#{fileformat}"
+  print "Downloading #{filename}..."
   File.open(outputpath, 'wb') do |file|
     songtitle = ""
     begin
@@ -118,10 +118,12 @@ def download_song(songID, fileformat, filename, directory)
         file.write(uri.read)
       end
     rescue
+      puts "failed!"
       File.delete(directory+"#{filename}.#{fileformat}")
       return set_directory("output", fileformat)
       next
     else
+      puts "done!"
       return true
     end
   end
@@ -171,6 +173,12 @@ def parse_csv(originaltitles)
         songID = row[2].chomp.to_i
         filename = row[0].chomp
         download_song(songID, $fileformat, filename, "output/#{$fileformat}")
+      elsif row[0].chomp == "BrawlStage"
+        print "STAGE"
+        if !row[1].nil?
+          print ": ", row[1].chomp
+        end
+        puts
       end
     end
   rescue => e
@@ -199,8 +207,6 @@ def parse_txt(directory)
       currentSubfolder = "/" + link.chomp
       puts "Current subfolder: " + currentSubfolder
     else
-      puts(filename)
-      print("Downloading...")
       download_song(songID, $fileformat, filename, directory)
     end
   end
@@ -218,14 +224,14 @@ def set_directory(root, *manualsort)
 end
 
 def menu
-  puts "SmashCustomMusicGetter, by undying-fish"
+  puts "SmashCustomMusicGetter, by boardfish"
   print "Choose an option [generate/download]: "
   input = gets.chomp
   case input
   when "generate"
     generate("csv")
   when "download"
-    $fileformat = choose($formats)
+    $fileformat = choose
     directory = set_directory("output", $fileformat)
     print "Choose an option [gamefile/title]: "
     input = gets.chomp
